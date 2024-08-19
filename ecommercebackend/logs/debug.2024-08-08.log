@@ -1,0 +1,6 @@
+2024-08-08 11:34:36 [http-nio-8080-exec-2] DEBUG c.s.s.Controller.ProductController - Request to add a product
+2024-08-08 11:38:23 [http-nio-8080-exec-2] DEBUG c.s.s.Controller.ProductController - Request to add a product
+2024-08-08 12:09:18 [http-nio-8080-exec-1] DEBUG c.s.s.Controller.ProductController - Request to add a product
+2024-08-08 15:31:48 [http-nio-8080-exec-2] DEBUG c.s.s.Controller.ProductController - Request to add a product
+2024-08-08 15:32:32 [http-nio-8080-exec-3] DEBUG c.s.s.Controller.ProductController - Request to add a product
+2024-08-08 15:32:59 [http-nio-8080-exec-4] DEBUG c.s.s.Controller.ProductController - Request to add a product
