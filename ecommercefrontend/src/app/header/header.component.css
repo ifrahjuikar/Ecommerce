@@ -1,0 +1,28 @@
+/* Style for the Angular Material toolbar */
+mat-toolbar {
+    background-color: #4CAF50; /* Adjust the color if needed */
+    color: white;
+  }
+  
+  /* Styling the title inside the toolbar */
+  .toolbar-title {
+    font-weight: bold;
+  }
+  
+  /* Spacer to push menu items to the right */
+  .toolbar-spacer {
+    flex: 1;
+  }
+  
+  /* Style for toolbar buttons */
+  mat-toolbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px; /* Adds spacing between menu items */
+  }
+  
+  /* Optional: Add a hover effect for menu items */
+  mat-toolbar a:hover {
+    text-decoration: underline;
+  }
+  

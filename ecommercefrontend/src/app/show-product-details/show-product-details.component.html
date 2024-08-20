@@ -1,0 +1,185 @@
+<!-- The table is populated with data from the productDetails array and is styled with Material Design using the mat-elevation-z8 class -->
+<!-- mat-table: This directive applies Material Design styling and functionality to the <table> element -->
+<!-- [dataSource]="productDetails": Binds the dataSource property of the table to the productDetails array in your component. -->
+<div class="container">
+    <table mat-table [dataSource]="productDetails" class="mat-elevation-z8">
+
+        <!-- Id Column -->
+        <!-- Defines a column with the name "Id" -->
+        <ng-container matColumnDef="Id">
+            <th mat-header-cell *matHeaderCellDef> Id </th>
+            <td mat-cell *matCellDef="let element"> {{element.productId}} </td>
+        </ng-container>
+
+        <!-- Product Name Column -->
+        <ng-container matColumnDef="Product Name">
+            <!-- Defines the header cell for this column, displaying the text "Id" -->
+            <th mat-header-cell *matHeaderCellDef> Product Name </th>
+            <!-- Defines the data cell for this column, displaying the value of productId from each element in the productDetails array -->
+            <td mat-cell *matCellDef="let element"> {{element.productName}} </td>
+        </ng-container>
+
+        <!-- Product Description Column -->
+        <ng-container matColumnDef="Product Description">
+            <!-- Defines the header cell for this column, displaying the text "Product Description" -->
+            <th mat-header-cell *matHeaderCellDef> Product Description </th>
+            <!-- Defines the data cell for this column, displaying the value of productDescription from each element in the productDetails array -->
+            <td mat-cell *matCellDef="let element"> {{element.productDescription}} </td>
+        </ng-container>
+
+        <!-- Product Discount Price Column -->
+        <ng-container matColumnDef="Product Discount Price">
+            <!-- Defines the header cell for this column, displaying the text "Product Discount Price" -->
+            <th mat-header-cell *matHeaderCellDef> Product Discount Price </th>
+            <!-- Defines the data cell for this column, displaying the value of productDiscountPrice from each element in the productDetails array -->
+            <td mat-cell *matCellDef="let element"> {{element.productDiscountPrice}} </td>
+        </ng-container>
+
+        <!-- Product Actual Price Column -->
+        <ng-container matColumnDef="Product Actual Price">
+            <!-- Defines the header cell for this column, displaying the text "Product Actual Price" -->
+            <th mat-header-cell *matHeaderCellDef> Product Actual Price </th>
+            <!-- Defines the data cell for this column, displaying the value of productActualPrice from each element in the productDetails array -->
+            <td mat-cell *matCellDef="let element"> {{element.productActualPrice}} </td>
+        </ng-container>
+
+        <!-- Product Actual Price Column -->
+        <ng-container matColumnDef="Images">
+            <!-- Defines the header cell for this column, displaying the text "Product Actual Price" -->
+            <th mat-header-cell *matHeaderCellDef> Images </th>
+            <!-- Defines the data cell for this column, displaying the value of productActualPrice from each element in the productDetails array -->
+            <td mat-cell *matCellDef="let element">
+                <button mat-icon-button color="primary" (click)="showImages(element)">
+                    <mat-icon>images</mat-icon>
+
+                </button>
+            </td>
+        </ng-container>
+
+
+
+        <!-- Edit Product -->
+        <ng-container matColumnDef="Edit">
+            <!-- Defines the header cell for this column, displaying the text "Edit" -->
+            <th mat-header-cell *matHeaderCellDef> Edit </th>
+            <!-- Defines the data cell for this column, displaying an edit button -->
+            <td mat-cell *matCellDef="let element">
+                <button mat-icon-button color="primary" (click)="editProductDetails(element.productId)">
+                    <mat-icon>edit</mat-icon>
+                </button>
+            </td>
+        </ng-container>
+
+        <!-- Delete Product -->
+        <ng-container matColumnDef="Delete">
+            <!-- Defines the header cell for this column, displaying the text "Delete" -->
+            <th mat-header-cell *matHeaderCellDef> Delete </th>
+            <!-- Defines the data cell for this column, displaying a delete button -->
+            <td mat-cell *matCellDef="let element">
+                <button mat-icon-button color="warn" (click)="deleteProduct(element.productId)">
+                    <mat-icon>delete</mat-icon>
+                </button>
+            </td>
+        </ng-container>
+
+
+        <!-- Header and Row Definitions -->
+        <!-- defines the header row of the table. *matHeaderRowDef="displayedColumns" binds the column definitions to the header row -->
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <!-- Defines the data rows of the table. *matRowDef="let row; columns: displayedColumns;" binds the column definitions to each row -->
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+    </table>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- extra logic -->
+
+
+<!-- <table mat-table [dataSource]="productDetails" class="mat-elevation-z8">
+
+    <!-- Id Column -->
+<!-- <ng-container matColumnDef="Id"> -->
+<!-- <th mat-header-cell *matHeaderCellDef> Id </th> -->
+<!-- <td mat-cell *matCellDef="let element"> {{element.productId}} </td> -->
+
+<!-- </ng-container> -->
+
+<!-- Product Name Column -->
+<!-- <ng-container matColumnDef="Product Name"> -->
+<!-- <th mat-header-cell *matHeaderCellDef> Product Name </th> -->
+<!-- <td mat-cell *matCellDef="let element"> {{element.productName}} </td> -->
+<!-- </ng-container> -->
+
+<!-- Product Description Column -->
+<!-- <ng-container matColumnDef="Product Description"> -->
+<!-- <th mat-header-cell *matHeaderCellDef> Product Description </th> -->
+<!-- <td mat-cell *matCellDef="let element"> {{element.productDescription}} </td> -->
+<!-- </ng-container> -->
+
+<!-- Product Discount Price Column -->
+<!-- <ng-container matColumnDef="Product Discount Price"> -->
+<!-- <th mat-header-cell *matHeaderCellDef> Product Discount Price </th> -->
+<!-- <td mat-cell *matCellDef="let element"> {{element.productDiscountPrice}} </td>
+    </ng-container> -->
+
+<!-- Product Actual Price Column -->
+<!-- <ng-container matColumnDef="Product Actual Price">
+      <th mat-header-cell *matHeaderCellDef> Product Actual Price </th>
+      <td mat-cell *matCellDef="let element"> {{element.productActualPrice}} </td>
+    </ng-container> -->
+
+<!-- <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  
+  </table> -->
+
+<!-- <table mat-table [dataSource]="productDetails" class="mat-elevation-z8">
+        <ul id="pid" matColumnDef="Id">
+          <th mat-header-cell *matHeaderCellDef>Id</th>
+        </ul>
+      
+        <ng-container matColumnDef="Product Name">
+          <th mat-header-cell *matHeaderCellDef>Product Name</th>
+          <td mat-cell *matCellDef="let element"></td>
+        </ng-container>
+      
+        <ng-container matColumnDef="Product Description">
+          <th mat-header-cell *matHeaderCellDef>Product Description</th>
+          <td mat-cell *matCellDef="let element">{{ element.productDescription }}</td>
+        </ng-container>
+      
+        <ng-container matColumnDef="Product Discount Price">
+          <th mat-header-cell *matHeaderCellDef>Product Discount Price</th>
+          <td mat-cell *matCellDef="let element">{{ element.productDiscountPrice }}</td>
+        </ng-container>
+      
+        <ng-container matColumnDef="Product Actual Price">
+          <th mat-header-cell *matHeaderCellDef>Product Actual Price</th>
+          <td mat-cell *matCellDef="let element">{{ element.productActualPrice }}</td>
+        </ng-container>
+      
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+      </table>
+   -->

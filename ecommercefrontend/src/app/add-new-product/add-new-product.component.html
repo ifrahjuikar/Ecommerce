@@ -1,0 +1,84 @@
+<!-- app.component.html -->
+<div class="container mt-5">
+    <div class="card p-5">
+        <div class="row">
+            <div class="col-6">
+                <form #productForm="ngForm" (ngSubmit)="addProduct(productForm)">
+                    <mat-form-field appearance="outline" class="w-100">
+                        <mat-label>Product Name</mat-label>
+                        <input matInput placeholder="Product Name"
+                        [(ngModel)]="product.productName"
+                        name="productName">
+                        <!-- <mat-icon matSuffix>sentiment_very_satisfied</mat-icon> -->
+                        <!-- <mat-hint>Hint</mat-hint> -->
+                    </mat-form-field>
+                    <mat-form-field appearance="outline" class="w-100">
+                        <mat-label>Product Description</mat-label>
+                        <input matInput placeholder="Product Description"
+                        [(ngModel)]="product.productDescription"
+                        name="productDescription">
+                        <!-- <mat-icon matSuffix>sentiment_very_satisfied</mat-icon> -->
+                        <!-- <mat-hint>Hint</mat-hint> -->
+                    </mat-form-field>
+                    <mat-form-field appearance="outline" class="w-100">
+                        <mat-label>Product Actual Price</mat-label>
+                        <input matInput placeholder="Product Actual Price"
+                        [(ngModel)]="product.productActualPrice"
+                        name="productActualPrice">
+                        <!-- <mat-icon matSuffix>sentiment_very_satisfied</mat-icon> -->
+                        <!-- <mat-hint>Hint</mat-hint> -->
+                    </mat-form-field>
+                    <mat-form-field appearance="outline" class="w-100">
+                        <mat-label>Product Discount Price</mat-label>
+                        <input matInput placeholder="Product Discount Price"
+                        [(ngModel)]="product.productDiscountPrice"
+                        name="productDiscountPrice">
+                        <!-- <mat-icon matSuffix>sentiment_very_satisfied</mat-icon> -->
+                        <!-- <mat-hint>Hint</mat-hint> -->
+                    </mat-form-field>
+                <button mat-stroked-button color="primary" style="margin-right: 3px">Clear</button>
+                <button type="submit" mat-stroked-button color="primary">Add Product</button>
+            </form>
+
+            </div>
+            <div class="col-6">
+                <div>
+                    <div class="dropzone"
+                    appDrag
+                    (files)="fileDropped($event)">
+
+                        <div class="text-wrapper">
+                            <div class="centered">
+                                Drag and drop your file or
+                                <a (click)="selectFile.click()" class="brow">browse</a>
+                                a file
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <input type="file" #selectFile 
+                    style="display:none;"
+                    multiple (change)="onFileSelected($event)">
+
+                </div>
+                <div class="mt-5">
+                    <div class="row">
+                        <mat-grid-list cols="4" row="1:1">
+                            <mat-grid-tile *ngFor="let file of product.productImages; let i =index">
+                                <div >
+                                    <span class="btn-remove-image" (click)="removeImages(i)">x</span>
+                                    <!-- <span class="btn-remove-image">remove</span> -->
+                                    <img [src]="file.url" width="300px" height="300px">
+                                </div>
+                            </mat-grid-tile>
+                        </mat-grid-list>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,19 @@
+<!-- header.component.html -->
+<mat-toolbar color="primary">
+    <span class="toolbar-title">Ecommerce</span>
+    <span class="toolbar-spacer"></span>
+    <a mat-button [routerLink]="['/home']">Home</a>
+    <a mat-button [routerLink]="['/shop']">Shop</a>
+    <a mat-button [routerLink]="['/about']">About</a>
+    <a mat-button [routerLink]="['/contact']">Contact</a>
+  
+    <!-- Menu Button -->
+    <a mat-button [matMenuTriggerFor]="menu">Extra</a>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item [routerLink]="['/AddNewProduct']">Add New Product</button>
+      <button mat-menu-item [routerLink]="['/ShowProductDetails']">Show All Products</button>
+
+    </mat-menu>
+    
+  </mat-toolbar>
+  

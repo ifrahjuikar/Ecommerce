@@ -1,0 +1,21 @@
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    border: 1px #eee;
+
+  }
+  
+  .image-wrapper {
+    flex: 0 0 auto;
+  }
+  
+  .custom-image {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border: 1px #eee;
+
+  }
