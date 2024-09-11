@@ -1,0 +1,92 @@
+2024-08-19 11:55:43 [http-nio-8080-exec-1] DEBUG c.s.s.Controller.ProductController - Request to add a product
+2024-08-19 11:55:51 [http-nio-8080-exec-2] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 11:55:52 [http-nio-8080-exec-3] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 11:55:59 [http-nio-8080-exec-4] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 11:56:29 [http-nio-8080-exec-5] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 11:56:31 [http-nio-8080-exec-6] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 11:56:36 [http-nio-8080-exec-8] DEBUG c.s.s.Controller.ProductController - Received a request to delete a product
+2024-08-19 11:56:43 [http-nio-8080-exec-9] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 11:57:09 [http-nio-8080-exec-10] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 11:57:41 [http-nio-8080-exec-1] DEBUG c.s.s.Controller.ProductController - Request to add a product
+2024-08-19 11:57:44 [http-nio-8080-exec-2] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 12:00:59 [http-nio-8080-exec-4] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 12:01:01 [http-nio-8080-exec-5] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 13:07:05 [http-nio-8080-exec-8] DEBUG c.s.s.Controller.ProductController - Received a request to delete a product
+2024-08-19 13:07:27 [http-nio-8080-exec-9] DEBUG c.s.s.Controller.ProductController - Request to add a product
+2024-08-19 14:30:06 [http-nio-8080-exec-1] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 14:55:47 [http-nio-8080-exec-4] DEBUG c.s.s.Controller.ProductController - Received a request to delete a product
+2024-08-19 14:56:09 [http-nio-8080-exec-5] DEBUG c.s.s.Controller.ProductController - Request to add a product
+2024-08-19 14:56:15 [http-nio-8080-exec-6] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:08:10 [http-nio-8080-exec-8] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:08:44 [http-nio-8080-exec-9] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:10:55 [http-nio-8080-exec-1] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:13:36 [http-nio-8080-exec-3] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:14:12 [http-nio-8080-exec-4] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:17:01 [http-nio-8080-exec-6] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:17:10 [http-nio-8080-exec-7] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:18:52 [http-nio-8080-exec-9] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:23:35 [http-nio-8080-exec-1] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:25:41 [http-nio-8080-exec-3] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:26:30 [http-nio-8080-exec-4] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:26:39 [http-nio-8080-exec-5] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:27:45 [http-nio-8080-exec-7] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:27:55 [http-nio-8080-exec-8] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:29:12 [http-nio-8080-exec-10] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:35:45 [http-nio-8080-exec-2] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:36:02 [http-nio-8080-exec-3] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:36:12 [http-nio-8080-exec-4] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:36:37 [http-nio-8080-exec-5] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:39:41 [http-nio-8080-exec-7] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:46:11 [http-nio-8080-exec-9] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:49:18 [http-nio-8080-exec-1] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:54:51 [http-nio-8080-exec-3] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:56:58 [http-nio-8080-exec-5] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:03:39 [http-nio-8080-exec-7] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:03:41 [http-nio-8080-exec-9] DEBUG c.s.s.Controller.ProductController - Received a request to delete a product
+2024-08-19 16:04:01 [http-nio-8080-exec-10] DEBUG c.s.s.Controller.ProductController - Request to add a product
+2024-08-19 16:04:04 [http-nio-8080-exec-1] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:08:34 [http-nio-8080-exec-3] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:11:57 [http-nio-8080-exec-6] DEBUG c.s.s.Controller.ProductController - Request to add a product
+2024-08-19 16:12:01 [http-nio-8080-exec-7] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:12:45 [http-nio-8080-exec-8] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:13:33 [http-nio-8080-exec-9] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:14:20 [http-nio-8080-exec-10] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:14:39 [http-nio-8080-exec-1] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:15:11 [http-nio-8080-exec-2] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:16:57 [http-nio-8080-exec-4] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:17:08 [http-nio-8080-exec-5] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:17:36 [http-nio-8080-exec-6] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:17:50 [http-nio-8080-exec-7] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:18:02 [http-nio-8080-exec-8] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:19:19 [http-nio-8080-exec-10] DEBUG c.s.s.Controller.ProductController - Request to add a product
+2024-08-19 16:19:22 [http-nio-8080-exec-1] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:22:25 [http-nio-8080-exec-3] DEBUG c.s.s.Controller.ProductController - Request to add a product
+2024-08-19 16:22:27 [http-nio-8080-exec-4] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:22:44 [http-nio-8080-exec-5] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:22:53 [http-nio-8080-exec-6] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:25:44 [http-nio-8080-exec-8] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:26:39 [http-nio-8080-exec-9] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:26:45 [http-nio-8080-exec-10] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:29:23 [http-nio-8080-exec-2] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:30:26 [http-nio-8080-exec-4] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:30:47 [http-nio-8080-exec-5] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:31:24 [http-nio-8080-exec-6] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:33:48 [http-nio-8080-exec-8] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:34:12 [http-nio-8080-exec-9] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:39:34 [http-nio-8080-exec-1] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:39:36 [http-nio-8080-exec-2] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:40:07 [http-nio-8080-exec-3] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:44:40 [http-nio-8080-exec-5] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:46:30 [http-nio-8080-exec-7] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:49:15 [http-nio-8080-exec-9] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 17:45:47 [http-nio-8080-exec-1] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 17:45:52 [http-nio-8080-exec-2] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 17:46:31 [http-nio-8080-exec-3] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 17:47:08 [http-nio-8080-exec-4] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 17:48:21 [http-nio-8080-exec-6] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a product with Id 48
+2024-08-19 17:49:38 [http-nio-8080-exec-8] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 17:49:40 [http-nio-8080-exec-9] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a product with Id 48
+2024-08-19 18:31:06 [http-nio-8080-exec-2] DEBUG c.s.s.Controller.ProductController - Received a request to delete a product
+2024-08-19 21:27:33 [http-nio-8080-exec-4] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a product with Id 51
+2024-08-19 21:28:10 [http-nio-8080-exec-6] DEBUG c.s.s.Controller.ProductController - Received a request to delete a product
+2024-08-19 21:28:11 [http-nio-8080-exec-7] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a product with Id 48

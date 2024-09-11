@@ -1,0 +1,2 @@
+2024-09-10 16:44:56 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-10 17:56:38 [http-nio-9090-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.springbootproject.springbootproject.Exception.ProductNotFoundException: Product Not Found with product id: 5]

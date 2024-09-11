@@ -1,0 +1,217 @@
+2024-08-19 11:55:27 [restartedMain] INFO  c.s.s.SpringbootprojectApplication - Starting SpringbootprojectApplication using Java 11.0.23 on remiges with PID 21751 (/home/ifrahj/Documents/javalearning/Ecommerce/ecommercebackend/springbootproject/target/classes started by ifrahj in /home/ifrahj/Documents/javalearning/Ecommerce/ecommercebackend)
+2024-08-19 11:55:27 [restartedMain] INFO  c.s.s.SpringbootprojectApplication - No active profile set, falling back to default profiles: default
+2024-08-19 11:55:27 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-19 11:55:27 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-19 11:55:27 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-19 11:55:27 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36 ms. Found 4 JPA repository interfaces.
+2024-08-19 11:55:28 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-08-19 11:55:28 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-19 11:55:28 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-19 11:55:28 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2024-08-19 11:55:28 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-19 11:55:28 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 967 ms
+2024-08-19 11:55:28 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-19 11:55:28 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2024-08-19 11:55:28 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-08-19 11:55:28 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-19 11:55:28 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-19 11:55:28 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-08-19 11:55:29 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-19 11:55:29 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-19 11:55:29 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-19 11:55:29 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-08-19 11:55:29 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-19 11:55:29 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-19 11:55:29 [restartedMain] INFO  c.s.s.SpringbootprojectApplication - Started SpringbootprojectApplication in 2.955 seconds (JVM running for 3.311)
+2024-08-19 11:55:43 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-19 11:55:43 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-19 11:55:43 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-08-19 11:55:43 [http-nio-8080-exec-1] DEBUG c.s.s.Controller.ProductController - Request to add a product
+2024-08-19 11:55:43 [http-nio-8080-exec-1] INFO  c.s.s.Controller.ProductController - Product added successfully: Laptop
+2024-08-19 11:55:51 [http-nio-8080-exec-2] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 11:55:51 [http-nio-8080-exec-2] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 11:55:52 [http-nio-8080-exec-3] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 11:55:52 [http-nio-8080-exec-3] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 11:55:59 [http-nio-8080-exec-4] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 11:55:59 [http-nio-8080-exec-4] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 11:56:29 [http-nio-8080-exec-5] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 11:56:29 [http-nio-8080-exec-5] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 11:56:31 [http-nio-8080-exec-6] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 11:56:31 [http-nio-8080-exec-6] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 11:56:36 [http-nio-8080-exec-8] DEBUG c.s.s.Controller.ProductController - Received a request to delete a product
+2024-08-19 11:56:36 [http-nio-8080-exec-8] INFO  c.s.s.Controller.ProductController - Product deleted successfully with ID: 38
+2024-08-19 11:56:43 [http-nio-8080-exec-9] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 11:56:43 [http-nio-8080-exec-9] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 11:57:09 [http-nio-8080-exec-10] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 11:57:09 [http-nio-8080-exec-10] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 11:57:41 [http-nio-8080-exec-1] DEBUG c.s.s.Controller.ProductController - Request to add a product
+2024-08-19 11:57:41 [http-nio-8080-exec-1] INFO  c.s.s.Controller.ProductController - Product added successfully: TV
+2024-08-19 11:57:44 [http-nio-8080-exec-2] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 11:57:44 [http-nio-8080-exec-2] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 12:00:59 [http-nio-8080-exec-4] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 12:00:59 [http-nio-8080-exec-4] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 12:01:01 [http-nio-8080-exec-5] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 12:01:01 [http-nio-8080-exec-5] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 13:07:05 [http-nio-8080-exec-8] DEBUG c.s.s.Controller.ProductController - Received a request to delete a product
+2024-08-19 13:07:05 [http-nio-8080-exec-8] INFO  c.s.s.Controller.ProductController - Product deleted successfully with ID: 40
+2024-08-19 13:07:27 [http-nio-8080-exec-9] DEBUG c.s.s.Controller.ProductController - Request to add a product
+2024-08-19 13:07:27 [http-nio-8080-exec-9] INFO  c.s.s.Controller.ProductController - Product added successfully: TV
+2024-08-19 14:30:06 [http-nio-8080-exec-1] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 14:30:06 [http-nio-8080-exec-1] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 14:55:47 [http-nio-8080-exec-4] DEBUG c.s.s.Controller.ProductController - Received a request to delete a product
+2024-08-19 14:55:47 [http-nio-8080-exec-4] INFO  c.s.s.Controller.ProductController - Product deleted successfully with ID: 42
+2024-08-19 14:56:09 [http-nio-8080-exec-5] DEBUG c.s.s.Controller.ProductController - Request to add a product
+2024-08-19 14:56:09 [http-nio-8080-exec-5] INFO  c.s.s.Controller.ProductController - Product added successfully: TV
+2024-08-19 14:56:15 [http-nio-8080-exec-6] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 14:56:15 [http-nio-8080-exec-6] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 15:08:10 [http-nio-8080-exec-8] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:08:10 [http-nio-8080-exec-8] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 15:08:44 [http-nio-8080-exec-9] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:08:44 [http-nio-8080-exec-9] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 15:10:55 [http-nio-8080-exec-1] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:10:55 [http-nio-8080-exec-1] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 15:13:36 [http-nio-8080-exec-3] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:13:36 [http-nio-8080-exec-3] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 15:14:12 [http-nio-8080-exec-4] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:14:12 [http-nio-8080-exec-4] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 15:17:01 [http-nio-8080-exec-6] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:17:01 [http-nio-8080-exec-6] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 15:17:10 [http-nio-8080-exec-7] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:17:10 [http-nio-8080-exec-7] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 15:18:52 [http-nio-8080-exec-9] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:18:52 [http-nio-8080-exec-9] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 15:23:35 [http-nio-8080-exec-1] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:23:35 [http-nio-8080-exec-1] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 15:25:41 [http-nio-8080-exec-3] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:25:41 [http-nio-8080-exec-3] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 15:26:30 [http-nio-8080-exec-4] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:26:30 [http-nio-8080-exec-4] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 15:26:39 [http-nio-8080-exec-5] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:26:39 [http-nio-8080-exec-5] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 15:27:45 [http-nio-8080-exec-7] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:27:45 [http-nio-8080-exec-7] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 15:27:55 [http-nio-8080-exec-8] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:27:55 [http-nio-8080-exec-8] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 15:29:12 [http-nio-8080-exec-10] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:29:12 [http-nio-8080-exec-10] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 15:35:45 [http-nio-8080-exec-2] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:35:45 [http-nio-8080-exec-2] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 15:36:02 [http-nio-8080-exec-3] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:36:02 [http-nio-8080-exec-3] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 15:36:12 [http-nio-8080-exec-4] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:36:12 [http-nio-8080-exec-4] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 15:36:37 [http-nio-8080-exec-5] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:36:37 [http-nio-8080-exec-5] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 15:39:41 [http-nio-8080-exec-7] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:39:41 [http-nio-8080-exec-7] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 15:46:11 [http-nio-8080-exec-9] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:46:11 [http-nio-8080-exec-9] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 15:49:18 [http-nio-8080-exec-1] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:49:18 [http-nio-8080-exec-1] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 15:54:51 [http-nio-8080-exec-3] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:54:51 [http-nio-8080-exec-3] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 15:56:58 [http-nio-8080-exec-5] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 15:56:58 [http-nio-8080-exec-5] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 16:03:39 [http-nio-8080-exec-7] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:03:39 [http-nio-8080-exec-7] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 16:03:41 [http-nio-8080-exec-9] DEBUG c.s.s.Controller.ProductController - Received a request to delete a product
+2024-08-19 16:03:41 [http-nio-8080-exec-9] INFO  c.s.s.Controller.ProductController - Product deleted successfully with ID: 44
+2024-08-19 16:04:01 [http-nio-8080-exec-10] DEBUG c.s.s.Controller.ProductController - Request to add a product
+2024-08-19 16:04:01 [http-nio-8080-exec-10] INFO  c.s.s.Controller.ProductController - Product added successfully: TV
+2024-08-19 16:04:04 [http-nio-8080-exec-1] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:04:04 [http-nio-8080-exec-1] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 16:08:34 [http-nio-8080-exec-3] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:08:34 [http-nio-8080-exec-3] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 16:11:38 [http-nio-8080-exec-5] ERROR c.s.s.utility.LoggingErrorUtility - Malformed JSON request
+2024-08-19 16:11:38 [http-nio-8080-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.lang.Double` from String "laptop": not a valid `Double` value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.lang.Double` from String "laptop": not a valid `Double` value
+ at [Source: (PushbackInputStream); line: 1, column: 78] (through reference chain: com.springbootproject.springbootproject.Entitities.Product["productDiscountPrice"])]
+2024-08-19 16:11:57 [http-nio-8080-exec-6] DEBUG c.s.s.Controller.ProductController - Request to add a product
+2024-08-19 16:11:57 [http-nio-8080-exec-6] INFO  c.s.s.Controller.ProductController - Product added successfully: laptop
+2024-08-19 16:12:01 [http-nio-8080-exec-7] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:12:01 [http-nio-8080-exec-7] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 16:12:45 [http-nio-8080-exec-8] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:12:45 [http-nio-8080-exec-8] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 16:13:33 [http-nio-8080-exec-9] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:13:33 [http-nio-8080-exec-9] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 16:14:20 [http-nio-8080-exec-10] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:14:20 [http-nio-8080-exec-10] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 16:14:39 [http-nio-8080-exec-1] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:14:39 [http-nio-8080-exec-1] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 16:15:11 [http-nio-8080-exec-2] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:15:11 [http-nio-8080-exec-2] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 16:16:57 [http-nio-8080-exec-4] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:16:57 [http-nio-8080-exec-4] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 16:17:08 [http-nio-8080-exec-5] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:17:08 [http-nio-8080-exec-5] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 16:17:36 [http-nio-8080-exec-6] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:17:36 [http-nio-8080-exec-6] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 16:17:50 [http-nio-8080-exec-7] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:17:50 [http-nio-8080-exec-7] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 16:18:02 [http-nio-8080-exec-8] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:18:02 [http-nio-8080-exec-8] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 16:18:35 [http-nio-8080-exec-9] ERROR c.s.s.utility.LoggingErrorUtility - Unexpected error occurred
+2024-08-19 16:18:35 [http-nio-8080-exec-9] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.multipart.support.MissingServletRequestPartException: Required request part 'imageFile' is not present]
+2024-08-19 16:19:19 [http-nio-8080-exec-10] DEBUG c.s.s.Controller.ProductController - Request to add a product
+2024-08-19 16:19:19 [http-nio-8080-exec-10] INFO  c.s.s.Controller.ProductController - Product added successfully: ij
+2024-08-19 16:19:22 [http-nio-8080-exec-1] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:19:22 [http-nio-8080-exec-1] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 16:22:25 [http-nio-8080-exec-3] DEBUG c.s.s.Controller.ProductController - Request to add a product
+2024-08-19 16:22:25 [http-nio-8080-exec-3] INFO  c.s.s.Controller.ProductController - Product added successfully: t
+2024-08-19 16:22:27 [http-nio-8080-exec-4] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:22:27 [http-nio-8080-exec-4] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 16:22:44 [http-nio-8080-exec-5] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:22:44 [http-nio-8080-exec-5] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 16:22:53 [http-nio-8080-exec-6] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:22:53 [http-nio-8080-exec-6] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 16:25:44 [http-nio-8080-exec-8] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:25:44 [http-nio-8080-exec-8] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 16:26:39 [http-nio-8080-exec-9] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:26:39 [http-nio-8080-exec-9] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 16:26:45 [http-nio-8080-exec-10] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:26:45 [http-nio-8080-exec-10] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 16:29:23 [http-nio-8080-exec-2] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:29:23 [http-nio-8080-exec-2] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 16:30:26 [http-nio-8080-exec-4] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:30:26 [http-nio-8080-exec-4] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 16:30:47 [http-nio-8080-exec-5] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:30:47 [http-nio-8080-exec-5] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 16:31:24 [http-nio-8080-exec-6] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:31:24 [http-nio-8080-exec-6] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 16:33:48 [http-nio-8080-exec-8] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:33:48 [http-nio-8080-exec-8] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 16:34:12 [http-nio-8080-exec-9] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:34:12 [http-nio-8080-exec-9] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 16:39:34 [http-nio-8080-exec-1] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:39:34 [http-nio-8080-exec-1] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 16:39:36 [http-nio-8080-exec-2] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:39:36 [http-nio-8080-exec-2] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 16:40:07 [http-nio-8080-exec-3] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:40:07 [http-nio-8080-exec-3] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 16:44:40 [http-nio-8080-exec-5] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:44:40 [http-nio-8080-exec-5] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 16:46:30 [http-nio-8080-exec-7] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:46:30 [http-nio-8080-exec-7] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 16:49:15 [http-nio-8080-exec-9] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 16:49:15 [http-nio-8080-exec-9] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 17:45:47 [http-nio-8080-exec-1] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 17:45:47 [http-nio-8080-exec-1] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 17:45:52 [http-nio-8080-exec-2] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 17:45:52 [http-nio-8080-exec-2] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 17:46:31 [http-nio-8080-exec-3] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 17:46:31 [http-nio-8080-exec-3] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 17:47:08 [http-nio-8080-exec-4] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 17:47:08 [http-nio-8080-exec-4] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 17:48:21 [http-nio-8080-exec-6] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a product with Id 48
+2024-08-19 17:48:21 [http-nio-8080-exec-6] INFO  c.s.s.Controller.ProductController - Product with ID: 48 retrieved successfully
+2024-08-19 17:49:38 [http-nio-8080-exec-8] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-19 17:49:38 [http-nio-8080-exec-8] INFO  c.s.s.Controller.ProductController - Products retrieved successfully!!
+2024-08-19 17:49:40 [http-nio-8080-exec-9] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a product with Id 48
+2024-08-19 17:49:40 [http-nio-8080-exec-9] INFO  c.s.s.Controller.ProductController - Product with ID: 48 retrieved successfully
+2024-08-19 18:31:06 [http-nio-8080-exec-2] DEBUG c.s.s.Controller.ProductController - Received a request to delete a product
+2024-08-19 18:31:06 [http-nio-8080-exec-2] INFO  c.s.s.Controller.ProductController - Product deleted successfully with ID: 54
+2024-08-19 21:27:33 [http-nio-8080-exec-4] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a product with Id 51
+2024-08-19 21:27:33 [http-nio-8080-exec-4] INFO  c.s.s.Controller.ProductController - Product with ID: 51 retrieved successfully
+2024-08-19 21:28:10 [http-nio-8080-exec-6] DEBUG c.s.s.Controller.ProductController - Received a request to delete a product
+2024-08-19 21:28:10 [http-nio-8080-exec-6] INFO  c.s.s.Controller.ProductController - Product deleted successfully with ID: 51
+2024-08-19 21:28:11 [http-nio-8080-exec-7] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a product with Id 48
+2024-08-19 21:28:11 [http-nio-8080-exec-7] INFO  c.s.s.Controller.ProductController - Product with ID: 48 retrieved successfully

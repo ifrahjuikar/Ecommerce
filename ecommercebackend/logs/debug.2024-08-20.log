@@ -1,0 +1,4 @@
+2024-08-20 00:32:05 [http-nio-8080-exec-9] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a product with Id 48
+2024-08-20 11:33:48 [http-nio-8080-exec-1] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-08-20 11:33:51 [http-nio-8080-exec-2] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a product with Id 46
+2024-08-20 11:33:54 [http-nio-8080-exec-4] DEBUG c.s.s.Controller.ProductController - Received a request to delete a product
