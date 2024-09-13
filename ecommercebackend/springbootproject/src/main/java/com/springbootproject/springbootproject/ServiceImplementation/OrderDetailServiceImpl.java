@@ -1,5 +1,6 @@
 package com.springbootproject.springbootproject.ServiceImplementation;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,9 +25,10 @@ public class OrderDetailServiceImpl implements OrderDetailService {
     private ProductRepository productRepository;
 
 
-    // @Override
-    public void placeOrder(OrderInput orderInput){
+    @Override
+    public List<OrderDetail> placeOrder(OrderInput orderInput){
         List<OrderProductQuantity> productQuantityList=orderInput.getOrderProductQuantityList();
+        List<OrderDetail> orderDetails = new ArrayList<>(); // List to store placed orders
         
         for(OrderProductQuantity o: productQuantityList){
             Product product =productRepository.findById(o.getProductId()).get();
@@ -42,8 +44,10 @@ public class OrderDetailServiceImpl implements OrderDetailService {
                 product
             );
             orderDetailRepository.save(orderDetail);
+            orderDetails.add(orderDetail);
 
         }
+        return orderDetails;
 
     }
 

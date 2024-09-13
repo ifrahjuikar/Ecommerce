@@ -1,8 +1,10 @@
 package com.springbootproject.springbootproject.Service;
 
+import java.util.List;
 import java.util.Optional;
 
 import com.springbootproject.springbootproject.Entitities.OrderDetail;
+import com.springbootproject.springbootproject.Entitities.OrderInput;
 
 public interface OrderDetailService {
 
@@ -17,4 +19,6 @@ public interface OrderDetailService {
 
     // Fetch all OrderDetails
     Iterable<OrderDetail> getAllOrderDetails();
+
+    List<OrderDetail> placeOrder(OrderInput orderInput);
 }

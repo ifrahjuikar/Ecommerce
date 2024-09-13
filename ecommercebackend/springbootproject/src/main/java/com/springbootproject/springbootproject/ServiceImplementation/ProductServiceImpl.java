@@ -3,6 +3,7 @@ package com.springbootproject.springbootproject.ServiceImplementation;
 import java.awt.Color;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -124,6 +125,24 @@ public class ProductServiceImpl implements ProductService {
                 .orElseThrow(() -> new ProductNotFoundException("Product Not Found with product id: " + productId));
         return product;
     }
+
+    public List<Product> getProductDetails(boolean isSingleProductCheckout, Integer productId){
+        if(isSingleProductCheckout){
+            //buy single product
+            List<Product> list=new ArrayList<>();
+            Product product = productRepository.findById(productId).get();
+            list.add(product);
+            return list;
+
+        }else{
+           
+
+        }
+        return new ArrayList<>();
+
+    }
+
+
 
     /**
      * Copies product details to the shadow table.

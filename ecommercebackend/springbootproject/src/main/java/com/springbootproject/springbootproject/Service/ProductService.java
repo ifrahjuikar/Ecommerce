@@ -21,6 +21,8 @@ public interface ProductService {
     // Method to retrieve all products
     public List<Product> getAllProducts();
 
+    public List<Product> getProductDetails(boolean isSingleProductCheckout, Integer productId);
+    
     // Method to retrieve a product by ID
     public Product getProductById(Integer productId);
 

@@ -30,11 +30,13 @@ import org.springframework.web.bind.annotation.RequestPart;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.lowagie.text.DocumentException;
 import com.springbootproject.springbootproject.Entitities.ImageModel;
 import com.springbootproject.springbootproject.Entitities.Product;
 import com.springbootproject.springbootproject.Exception.ApiResponse;
 import com.springbootproject.springbootproject.Service.ProductService;
+import org.springframework.web.bind.annotation.RequestParam;
 
 /**
  * Controller class for handling CRUD operations on Products.
@@ -67,34 +69,78 @@ public class ProductController {
                                         new ApiResponse("Error", HttpStatus.BAD_REQUEST.value(),
                                                         "Request Body is Empty", null),
                                         HttpStatus.BAD_REQUEST);
-                }else{
+                } else {
 
-                try {
-                        Set<ImageModel> images = uploadImage(file);
-                        product.setProductImages(images);
+                        try {
+                                Set<ImageModel> images = uploadImage(file);
+                                product.setProductImages(images);
 
-                        // Add the product
-                        Product addedProduct = productService.addProduct(product);
+                                // Add the product
+                                Product addedProduct = productService.addProduct(product);
 
-                        // Return success response
-                        log.info("Product added successfully: {}", product.getProductName());
-                        return new ResponseEntity<>(
-                                        new ApiResponse("Success", HttpStatus.OK.value(), "Product added successfully",
-                                                        addedProduct),
-                                        HttpStatus.OK);
+                                // Return success response
+                                log.info("Product added successfully: {}", product.getProductName());
+                                return new ResponseEntity<>(
+                                                new ApiResponse("Success", HttpStatus.OK.value(),
+                                                                "Product added successfully",
+                                                                addedProduct),
+                                                HttpStatus.OK);
 
-                } catch (IOException e) {
-                        // Log the exception
-                        log.error("Error processing files: {}", e.getMessage());
+                        } catch (IOException e) {
+                                // Log the exception
+                                log.error("Error processing files: {}", e.getMessage());
 
-                        // Return error response
-                        return new ResponseEntity<>(
-                                        new ApiResponse("Error", HttpStatus.INTERNAL_SERVER_ERROR.value(),
-                                                        "Error processing files", null),
-                                        HttpStatus.INTERNAL_SERVER_ERROR);
+                                // Return error response
+                                return new ResponseEntity<>(
+                                                new ApiResponse("Error", HttpStatus.INTERNAL_SERVER_ERROR.value(),
+                                                                "Error processing files", null),
+                                                HttpStatus.INTERNAL_SERVER_ERROR);
+                        }
                 }
         }
-        }
+        // @PostMapping(value = { "/product" }, consumes = { MediaType.MULTIPART_FORM_DATA_VALUE })
+        // public ResponseEntity<ApiResponse> addProduct(
+        //                 @RequestBody Product product,  // Accept product as JSON
+        //                 @RequestPart("imageFile") MultipartFile[] files) {  // Handle image files separately
+        
+        //     log.debug("Request to add a product");
+        
+        //     // Check if the request body is empty
+        //     if (isRequestBodyEmpty(product)) {
+        //         log.warn("Request body is empty: {}", product);
+        //         return new ResponseEntity<>(
+        //                         new ApiResponse("Error", HttpStatus.BAD_REQUEST.value(),
+        //                                         "Request Body is Empty", null),
+        //                         HttpStatus.BAD_REQUEST);
+        //     }
+        
+        //     try {
+        //         // Upload images and set to product
+        //         Set<ImageModel> images = uploadImage(files);
+        //         product.setProductImages(images);
+        
+        //         // Add the product
+        //         Product addedProduct = productService.addProduct(product);
+        
+        //         // Return success response
+        //         log.info("Product added successfully: {}", product.getProductName());
+        //         return new ResponseEntity<>(
+        //                         new ApiResponse("Success", HttpStatus.OK.value(),
+        //                                         "Product added successfully", addedProduct),
+        //                         HttpStatus.OK);
+        
+        //     } catch (IOException e) {
+        //         // Log the exception
+        //         log.error("Error processing files: {}", e.getMessage());
+        
+        //         // Return error response
+        //         return new ResponseEntity<>(
+        //                         new ApiResponse("Error", HttpStatus.INTERNAL_SERVER_ERROR.value(),
+        //                                         "Error processing files", null),
+        //                         HttpStatus.INTERNAL_SERVER_ERROR);
+        //     }
+        // }
+        
 
         /**
          * Updates an existing product.
@@ -190,6 +236,17 @@ public class ProductController {
                                                 "Product with product id " + productId + " retrieved successfully",
                                                 product),
                                 HttpStatus.OK);
+                return responseEntity;
+        }
+
+        @GetMapping("/getProductDetails/{isSingleProductCheckout}/{productId}")
+        public ResponseEntity<?> getProductDetails(
+                        @PathVariable(name = "isSingleProductCheckout") boolean isStringProductCheckout,
+                        @PathVariable(name = "productId") Integer productId) {
+                ResponseEntity<?> responseEntity;
+                List<Product> getProduct = productService.getProductDetails(isStringProductCheckout, productId);
+                responseEntity = new ResponseEntity<>(
+                                new ApiResponse("SUCESS", HttpStatus.OK.value(), "SUCESS", getProduct), HttpStatus.OK);
                 return responseEntity;
         }
 
