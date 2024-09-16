@@ -20,5 +20,5 @@ public interface OrderDetailService {
     // Fetch all OrderDetails
     Iterable<OrderDetail> getAllOrderDetails();
 
-    List<OrderDetail> placeOrder(OrderInput orderInput);
-}
+    public List<OrderDetail> placeOrder(OrderInput orderInput, boolean isCartCheckout);
+    }

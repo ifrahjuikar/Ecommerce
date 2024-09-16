@@ -26,6 +26,14 @@ public interface ProductService {
     // Method to retrieve a product by ID
     public Product getProductById(Integer productId);
 
+    public List<Product> getAllProducts(int pageNumber);
+
+    public List<Product> getAllProducts(int pageNumber, String searchKey);
+
+
+    
+
+
     // Method to generate a PDF of product list
     public void generateProductPdf(List<Product> productList, ByteArrayOutputStream outputStream)
             throws IOException;

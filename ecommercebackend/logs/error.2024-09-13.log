@@ -1,0 +1,1065 @@
+2024-09-13 21:51:43 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtRequestFilter': Unsatisfied dependency expressed through field 'customUserDetailsService': Error creating bean with name 'jwtService': Unsatisfied dependency expressed through field 'authenticationManager': Error creating bean with name 'webSecurityConfiguration': Unsatisfied dependency expressed through field 'customUserDetailsService': Error creating bean with name 'jwtService': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2024-09-13 21:51:43 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   jwtRequestFilter (field private com.springbootproject.springbootproject.ServiceImplementation.JwtService com.springbootproject.springbootproject.configuration.JwtRequestFilter.customUserDetailsService)
+┌─────┐
+|  jwtService (field private org.springframework.security.authentication.AuthenticationManager com.springbootproject.springbootproject.ServiceImplementation.JwtService.authenticationManager)
+↑     ↓
+|  webSecurityConfiguration (field private org.springframework.security.core.userdetails.UserDetailsService com.springbootproject.springbootproject.configuration.WebSecurityConfiguration.customUserDetailsService)
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2024-09-13 21:54:59 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtRequestFilter': Unsatisfied dependency expressed through field 'customUserDetailsService': Error creating bean with name 'jwtService': Unsatisfied dependency expressed through field 'authenticationManager': Error creating bean with name 'webSecurityConfiguration': Unsatisfied dependency expressed through field 'customUserDetailsService': Error creating bean with name 'jwtService': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2024-09-13 21:54:59 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   jwtRequestFilter (field private org.springframework.security.core.userdetails.UserDetailsService com.springbootproject.springbootproject.configuration.JwtRequestFilter.customUserDetailsService)
+┌─────┐
+|  jwtService (field private org.springframework.security.authentication.AuthenticationManager com.springbootproject.springbootproject.ServiceImplementation.JwtService.authenticationManager)
+↑     ↓
+|  webSecurityConfiguration (field private org.springframework.security.core.userdetails.UserDetailsService com.springbootproject.springbootproject.configuration.WebSecurityConfiguration.customUserDetailsService)
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2024-09-13 21:55:54 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtRequestFilter': Unsatisfied dependency expressed through field 'customUserDetailsService': Error creating bean with name 'jwtService': Unsatisfied dependency expressed through field 'authenticationManager': Error creating bean with name 'webSecurityConfiguration': Unsatisfied dependency expressed through field 'jwtRequestFilter': Error creating bean with name 'jwtRequestFilter': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2024-09-13 21:55:54 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌─────┐
+|  jwtRequestFilter (field private org.springframework.security.core.userdetails.UserDetailsService com.springbootproject.springbootproject.configuration.JwtRequestFilter.customUserDetailsService)
+↑     ↓
+|  jwtService (field private org.springframework.security.authentication.AuthenticationManager com.springbootproject.springbootproject.ServiceImplementation.JwtService.authenticationManager)
+↑     ↓
+|  webSecurityConfiguration (field private com.springbootproject.springbootproject.configuration.JwtRequestFilter com.springbootproject.springbootproject.configuration.WebSecurityConfiguration.jwtRequestFilter)
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2024-09-13 21:57:47 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtRequestFilter': Unsatisfied dependency expressed through field 'customUserDetailsService': Error creating bean with name 'jwtService': Unsatisfied dependency expressed through field 'authenticationManager': Error creating bean with name 'webSecurityConfiguration': Unsatisfied dependency expressed through field 'jwtRequestFilter': Error creating bean with name 'jwtRequestFilter': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2024-09-13 21:57:47 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌─────┐
+|  jwtRequestFilter (field private org.springframework.security.core.userdetails.UserDetailsService com.springbootproject.springbootproject.configuration.JwtRequestFilter.customUserDetailsService)
+↑     ↓
+|  jwtService (field private org.springframework.security.authentication.AuthenticationManager com.springbootproject.springbootproject.ServiceImplementation.JwtService.authenticationManager)
+↑     ↓
+|  webSecurityConfiguration (field private com.springbootproject.springbootproject.configuration.JwtRequestFilter com.springbootproject.springbootproject.configuration.WebSecurityConfiguration.jwtRequestFilter)
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2024-09-13 22:04:30 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtRequestFilter': Unsatisfied dependency expressed through field 'customUserDetailsService': Error creating bean with name 'jwtService' defined in file [/home/ifrahj/okay/springbootproject/target/classes/com/springbootproject/springbootproject/ServiceImplementation/JwtService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'webSecurityConfiguration': Unsatisfied dependency expressed through field 'jwtRequestFilter': Error creating bean with name 'jwtRequestFilter': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2024-09-13 22:04:30 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌─────┐
+|  jwtRequestFilter (field private org.springframework.security.core.userdetails.UserDetailsService com.springbootproject.springbootproject.configuration.JwtRequestFilter.customUserDetailsService)
+↑     ↓
+|  jwtService defined in file [/home/ifrahj/okay/springbootproject/target/classes/com/springbootproject/springbootproject/ServiceImplementation/JwtService.class]
+↑     ↓
+|  webSecurityConfiguration (field private com.springbootproject.springbootproject.configuration.JwtRequestFilter com.springbootproject.springbootproject.configuration.WebSecurityConfiguration.jwtRequestFilter)
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2024-09-13 22:20:42 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtRequestFilter': Unsatisfied dependency expressed through field 'customUserDetailsService': Error creating bean with name 'jwtService' defined in file [/home/ifrahj/okay/springbootproject/target/classes/com/springbootproject/springbootproject/ServiceImplementation/JwtService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'webSecurityConfiguration': Unsatisfied dependency expressed through field 'jwtRequestFilter': Error creating bean with name 'jwtRequestFilter': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2024-09-13 22:20:42 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌─────┐
+|  jwtRequestFilter (field private org.springframework.security.core.userdetails.UserDetailsService com.springbootproject.springbootproject.configuration.JwtRequestFilter.customUserDetailsService)
+↑     ↓
+|  jwtService defined in file [/home/ifrahj/okay/springbootproject/target/classes/com/springbootproject/springbootproject/ServiceImplementation/JwtService.class]
+↑     ↓
+|  webSecurityConfiguration (field private com.springbootproject.springbootproject.configuration.JwtRequestFilter com.springbootproject.springbootproject.configuration.WebSecurityConfiguration.jwtRequestFilter)
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2024-09-13 22:24:48 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field jwtRequestFilter in com.springbootproject.springbootproject.configuration.WebSecurityConfiguration required a bean of type 'com.springbootproject.springbootproject.configuration.JwtRequestFilter' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.springbootproject.springbootproject.configuration.JwtRequestFilter' in your configuration.
+
+2024-09-13 22:26:53 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtRequestFilter' defined in file [/home/ifrahj/okay/springbootproject/target/classes/com/springbootproject/springbootproject/configuration/JwtRequestFilter.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'jwtService' defined in file [/home/ifrahj/okay/springbootproject/target/classes/com/springbootproject/springbootproject/ServiceImplementation/JwtService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'webSecurityConfiguration' defined in file [/home/ifrahj/okay/springbootproject/target/classes/com/springbootproject/springbootproject/configuration/WebSecurityConfiguration.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'jwtRequestFilter': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2024-09-13 22:26:53 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌─────┐
+|  jwtRequestFilter defined in file [/home/ifrahj/okay/springbootproject/target/classes/com/springbootproject/springbootproject/configuration/JwtRequestFilter.class]
+↑     ↓
+|  jwtService defined in file [/home/ifrahj/okay/springbootproject/target/classes/com/springbootproject/springbootproject/ServiceImplementation/JwtService.class]
+↑     ↓
+|  webSecurityConfiguration defined in file [/home/ifrahj/okay/springbootproject/target/classes/com/springbootproject/springbootproject/configuration/WebSecurityConfiguration.class]
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2024-09-13 22:30:53 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCurrentlyInCreationException. Message: Error creating bean with name 'webSecurityConfiguration': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2024-09-13 22:30:53 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:165)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:619)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.springbootproject.springbootproject.SpringbootprojectApplication.main(SpringbootprojectApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:147)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:516)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:222)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:188)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'webSecurityConfiguration': Requested bean is currently in creation: Is there an unresolvable circular reference?
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.beforeSingletonCreation(DefaultSingletonBeanRegistry.java:355)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:227)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1355)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.resolveBeanReference(ConfigurationClassEnhancer.java:380)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:351)
+	at com.springbootproject.springbootproject.configuration.WebSecurityConfiguration$$SpringCGLIB$$0.passwordEncoder(<generated>)
+	at com.springbootproject.springbootproject.configuration.WebSecurityConfiguration.configureGlobal(WebSecurityConfiguration.java:168)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:854)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1439)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1355)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:174)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:169)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:154)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:87)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:266)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:240)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:52)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4414)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:437)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128)
+	... 18 common frames omitted
+2024-09-13 22:33:14 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'authenticationManager', defined in class path resource [com/springbootproject/springbootproject/configuration/WebSecurityConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [com/springbootproject/springbootproject/ServiceImplementation/CustomUserDetailsService.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2024-09-13 22:33:24 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'authenticationManager', defined in class path resource [com/springbootproject/springbootproject/configuration/WebSecurityConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [com/springbootproject/springbootproject/ServiceImplementation/CustomUserDetailsService.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2024-09-13 22:34:45 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtRequestFilter': Unsatisfied dependency expressed through field 'customUserDetailsService': Error creating bean with name 'customUserDetailsService': Unsatisfied dependency expressed through field 'passwordEncoder': Error creating bean with name 'webSecurityConfiguration' defined in file [/home/ifrahj/okay/springbootproject/target/classes/com/springbootproject/springbootproject/configuration/WebSecurityConfiguration.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'customUserDetailsService': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2024-09-13 22:34:45 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   jwtRequestFilter (field private com.springbootproject.springbootproject.ServiceImplementation.CustomUserDetailsService com.springbootproject.springbootproject.configuration.JwtRequestFilter.customUserDetailsService)
+┌─────┐
+|  customUserDetailsService (field private org.springframework.security.crypto.password.PasswordEncoder com.springbootproject.springbootproject.ServiceImplementation.CustomUserDetailsService.passwordEncoder)
+↑     ↓
+|  webSecurityConfiguration defined in file [/home/ifrahj/okay/springbootproject/target/classes/com/springbootproject/springbootproject/configuration/WebSecurityConfiguration.class]
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2024-09-13 22:36:07 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtRequestFilter': Unsatisfied dependency expressed through field 'customUserDetailsService': Error creating bean with name 'customUserDetailsService' defined in file [/home/ifrahj/okay/springbootproject/target/classes/com/springbootproject/springbootproject/ServiceImplementation/CustomUserDetailsService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'webSecurityConfiguration' defined in file [/home/ifrahj/okay/springbootproject/target/classes/com/springbootproject/springbootproject/configuration/WebSecurityConfiguration.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'customUserDetailsService': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2024-09-13 22:36:07 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   jwtRequestFilter (field private com.springbootproject.springbootproject.ServiceImplementation.CustomUserDetailsService com.springbootproject.springbootproject.configuration.JwtRequestFilter.customUserDetailsService)
+┌─────┐
+|  customUserDetailsService defined in file [/home/ifrahj/okay/springbootproject/target/classes/com/springbootproject/springbootproject/ServiceImplementation/CustomUserDetailsService.class]
+↑     ↓
+|  webSecurityConfiguration defined in file [/home/ifrahj/okay/springbootproject/target/classes/com/springbootproject/springbootproject/configuration/WebSecurityConfiguration.class]
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2024-09-13 22:42:19 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtRequestFilter': Unsatisfied dependency expressed through field 'customUserDetailsService': Error creating bean with name 'jwtService' defined in file [/home/ifrahj/okay/springbootproject/target/classes/com/springbootproject/springbootproject/ServiceImplementation/JwtService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'webSecurityConfiguration' defined in file [/home/ifrahj/okay/springbootproject/target/classes/com/springbootproject/springbootproject/configuration/WebSecurityConfiguration.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'jwtRequestFilter': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2024-09-13 22:42:19 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌─────┐
+|  jwtRequestFilter (field private com.springbootproject.springbootproject.ServiceImplementation.JwtService com.springbootproject.springbootproject.configuration.JwtRequestFilter.customUserDetailsService)
+↑     ↓
+|  jwtService defined in file [/home/ifrahj/okay/springbootproject/target/classes/com/springbootproject/springbootproject/ServiceImplementation/JwtService.class]
+↑     ↓
+|  webSecurityConfiguration defined in file [/home/ifrahj/okay/springbootproject/target/classes/com/springbootproject/springbootproject/configuration/WebSecurityConfiguration.class]
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2024-09-13 22:47:01 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtRequestFilter': Unsatisfied dependency expressed through field 'customUserDetailsService': Error creating bean with name 'customUserDetailsService' defined in file [/home/ifrahj/okay/springbootproject/target/classes/com/springbootproject/springbootproject/ServiceImplementation/CustomUserDetailsService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'webSecurityConfiguration' defined in file [/home/ifrahj/okay/springbootproject/target/classes/com/springbootproject/springbootproject/configuration/WebSecurityConfiguration.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'jwtRequestFilter': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2024-09-13 22:47:01 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌─────┐
+|  jwtRequestFilter (field private org.springframework.security.core.userdetails.UserDetailsService com.springbootproject.springbootproject.configuration.JwtRequestFilter.customUserDetailsService)
+↑     ↓
+|  customUserDetailsService defined in file [/home/ifrahj/okay/springbootproject/target/classes/com/springbootproject/springbootproject/ServiceImplementation/CustomUserDetailsService.class]
+↑     ↓
+|  webSecurityConfiguration defined in file [/home/ifrahj/okay/springbootproject/target/classes/com/springbootproject/springbootproject/configuration/WebSecurityConfiguration.class]
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2024-09-13 22:48:32 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtRequestFilter': Unsatisfied dependency expressed through field 'customUserDetailsService': Error creating bean with name 'jwtService' defined in file [/home/ifrahj/okay/springbootproject/target/classes/com/springbootproject/springbootproject/ServiceImplementation/JwtService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'webSecurityConfiguration' defined in file [/home/ifrahj/okay/springbootproject/target/classes/com/springbootproject/springbootproject/configuration/WebSecurityConfiguration.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'jwtRequestFilter': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2024-09-13 22:48:33 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌─────┐
+|  jwtRequestFilter (field private org.springframework.security.core.userdetails.UserDetailsService com.springbootproject.springbootproject.configuration.JwtRequestFilter.customUserDetailsService)
+↑     ↓
+|  jwtService defined in file [/home/ifrahj/okay/springbootproject/target/classes/com/springbootproject/springbootproject/ServiceImplementation/JwtService.class]
+↑     ↓
+|  webSecurityConfiguration defined in file [/home/ifrahj/okay/springbootproject/target/classes/com/springbootproject/springbootproject/configuration/WebSecurityConfiguration.class]
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2024-09-13 22:48:34 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtRequestFilter': Unsatisfied dependency expressed through field 'customUserDetailsService': Error creating bean with name 'jwtService' defined in file [/home/ifrahj/okay/springbootproject/target/classes/com/springbootproject/springbootproject/ServiceImplementation/JwtService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'webSecurityConfiguration' defined in file [/home/ifrahj/okay/springbootproject/target/classes/com/springbootproject/springbootproject/configuration/WebSecurityConfiguration.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'jwtRequestFilter': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2024-09-13 22:48:34 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌─────┐
+|  jwtRequestFilter (field private org.springframework.security.core.userdetails.UserDetailsService com.springbootproject.springbootproject.configuration.JwtRequestFilter.customUserDetailsService)
+↑     ↓
+|  jwtService defined in file [/home/ifrahj/okay/springbootproject/target/classes/com/springbootproject/springbootproject/ServiceImplementation/JwtService.class]
+↑     ↓
+|  webSecurityConfiguration defined in file [/home/ifrahj/okay/springbootproject/target/classes/com/springbootproject/springbootproject/configuration/WebSecurityConfiguration.class]
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2024-09-13 23:03:59 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter': Unsatisfied dependency expressed through field 'userDetailsService': No qualifying bean of type 'org.springframework.security.core.userdetails.UserDetailsService' available: expected single matching bean but found 2: jwtService,userDetailService
+2024-09-13 23:04:00 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userDetailsService in com.springbootproject.springbootproject.Jwt.JwtAuthenticationFilter required a single bean, but 2 were found:
+	- jwtService: defined in file [/home/ifrahj/NotOkay/springbootproject/target/classes/com/springbootproject/springbootproject/ServiceImplementation/JwtService.class]
+	- userDetailService: defined by method 'userDetailService' in class path resource [com/springbootproject/springbootproject/Jwt/SpringSecurityConfig.class]
+
+This may be due to missing parameter name information
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+Ensure that your compiler is configured to use the '-parameters' flag.
+You may need to update both your build tool settings as well as your IDE.
+(See https://github.com/spring-projects/spring-framework/wiki/Upgrading-to-Spring-Framework-6.x#parameter-name-retention)
+
+
+2024-09-13 23:04:25 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jwtController' defined in file [/home/ifrahj/NotOkay/springbootproject/target/classes/com/springbootproject/springbootproject/Controller/JwtController.class]: Failed to instantiate [com.springbootproject.springbootproject.Controller.JwtController]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1337)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.springbootproject.springbootproject.SpringbootprojectApplication.main(SpringbootprojectApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.springbootproject.springbootproject.Controller.JwtController]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:221)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:94)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1331)
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The import com.springbootproject.springbootproject.ServiceImplementation.JwtService cannot be resolved
+	JwtService cannot be resolved to a type
+	JwtService cannot be resolved to a type
+
+	at com.springbootproject.springbootproject.Controller.JwtController.<init>(JwtController.java:9)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:195)
+	... 24 common frames omitted
+2024-09-13 23:04:38 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9090 or configure this application to listen on another port.
+
+2024-09-13 23:09:47 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'securityFilterChain', defined in class path resource [com/springbootproject/springbootproject/Jwt/SpringSecurityConfig.class], could not be registered. A bean with that name has already been defined in class path resource [com/springbootproject/springbootproject/Jwt/SecurityConfig.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2024-09-13 23:09:47 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'securityFilterChain', defined in class path resource [com/springbootproject/springbootproject/Jwt/SpringSecurityConfig.class], could not be registered. A bean with that name has already been defined in class path resource [com/springbootproject/springbootproject/Jwt/SecurityConfig.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2024-09-13 23:10:34 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9091 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9091 or configure this application to listen on another port.
+
+2024-09-13 23:13:18 [http-nio-9091-exec-1] ERROR c.s.s.Jwt.JwtAuthenticationFilter - Invalid Header Value !! 
+2024-09-13 23:13:18 [http-nio-9091-exec-1] ERROR c.s.s.utility.LoggingErrorUtility - Unexpected error occurred
+2024-09-13 23:13:57 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter': Unsatisfied dependency expressed through field 'userDetailsService': Error creating bean with name 'userDetailsService': Unsatisfied dependency expressed through field 'authenticationManager': Error creating bean with name 'authenticationManager' defined in class path resource [com/springbootproject/springbootproject/Jwt/SpringSecurityConfig.class]: Failed to instantiate [org.springframework.security.authentication.AuthenticationManager]: Factory method 'authenticationManager' threw exception with message: Error creating bean with name 'jwtService': Unsatisfied dependency expressed through field 'authenticationManager': Error creating bean with name 'authenticationManager': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2024-09-13 23:13:57 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   jwtAuthenticationFilter (field private org.springframework.security.core.userdetails.UserDetailsService com.springbootproject.springbootproject.Jwt.JwtAuthenticationFilter.userDetailsService)
+      ↓
+   userDetailsService (field private org.springframework.security.authentication.AuthenticationManager com.springbootproject.springbootproject.ServiceImplementation.JwtService.authenticationManager)
+┌─────┐
+|  authenticationManager defined in class path resource [com/springbootproject/springbootproject/Jwt/SpringSecurityConfig.class]
+↑     ↓
+|  jwtService (field private org.springframework.security.authentication.AuthenticationManager com.springbootproject.springbootproject.ServiceImplementation.JwtService.authenticationManager)
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2024-09-13 23:14:47 [http-nio-9091-exec-2] ERROR c.s.s.Jwt.JwtAuthenticationFilter - Invalid Header Value !! 
+2024-09-13 23:14:47 [http-nio-9091-exec-2] ERROR c.s.s.utility.LoggingErrorUtility - Unexpected error occurred
+2024-09-13 23:18:00 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter': Unsatisfied dependency expressed through field 'userDetailsService': Error creating bean with name 'userDetailsService': Unsatisfied dependency expressed through field 'authenticationManager': Error creating bean with name 'authenticationManager' defined in class path resource [com/springbootproject/springbootproject/Jwt/SpringSecurityConfig.class]: Failed to instantiate [org.springframework.security.authentication.AuthenticationManager]: Factory method 'authenticationManager' threw exception with message: Error creating bean with name 'jwtService': Unsatisfied dependency expressed through field 'authenticationManager': Error creating bean with name 'authenticationManager': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2024-09-13 23:18:00 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   jwtAuthenticationFilter (field private org.springframework.security.core.userdetails.UserDetailsService com.springbootproject.springbootproject.Jwt.JwtAuthenticationFilter.userDetailsService)
+      ↓
+   userDetailsService (field private org.springframework.security.authentication.AuthenticationManager com.springbootproject.springbootproject.ServiceImplementation.JwtService.authenticationManager)
+┌─────┐
+|  authenticationManager defined in class path resource [com/springbootproject/springbootproject/Jwt/SpringSecurityConfig.class]
+↑     ↓
+|  jwtService (field private org.springframework.security.authentication.AuthenticationManager com.springbootproject.springbootproject.ServiceImplementation.JwtService.authenticationManager)
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2024-09-13 23:18:02 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter': Unsatisfied dependency expressed through field 'userDetailsService': Error creating bean with name 'userDetailsService': Unsatisfied dependency expressed through field 'authenticationManager': Error creating bean with name 'authenticationManager' defined in class path resource [com/springbootproject/springbootproject/Jwt/SpringSecurityConfig.class]: Failed to instantiate [org.springframework.security.authentication.AuthenticationManager]: Factory method 'authenticationManager' threw exception with message: Error creating bean with name 'jwtService': Unsatisfied dependency expressed through field 'authenticationManager': Error creating bean with name 'authenticationManager': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2024-09-13 23:18:02 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   jwtAuthenticationFilter (field private org.springframework.security.core.userdetails.UserDetailsService com.springbootproject.springbootproject.Jwt.JwtAuthenticationFilter.userDetailsService)
+      ↓
+   userDetailsService (field private org.springframework.security.authentication.AuthenticationManager com.springbootproject.springbootproject.ServiceImplementation.JwtService.authenticationManager)
+┌─────┐
+|  authenticationManager defined in class path resource [com/springbootproject/springbootproject/Jwt/SpringSecurityConfig.class]
+↑     ↓
+|  jwtService (field private org.springframework.security.authentication.AuthenticationManager com.springbootproject.springbootproject.ServiceImplementation.JwtService.authenticationManager)
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2024-09-13 23:19:18 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter': Unsatisfied dependency expressed through field 'userDetailsService': Error creating bean with name 'jwtService': Unsatisfied dependency expressed through field 'authenticationManager': Error creating bean with name 'authenticationManager' defined in class path resource [com/springbootproject/springbootproject/Jwt/SpringSecurityConfig.class]: Failed to instantiate [org.springframework.security.authentication.AuthenticationManager]: Factory method 'authenticationManager' threw exception with message: Error creating bean with name 'jwtService': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2024-09-13 23:19:18 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   jwtAuthenticationFilter (field private com.springbootproject.springbootproject.ServiceImplementation.JwtService com.springbootproject.springbootproject.Jwt.JwtAuthenticationFilter.userDetailsService)
+┌─────┐
+|  jwtService (field private org.springframework.security.authentication.AuthenticationManager com.springbootproject.springbootproject.ServiceImplementation.JwtService.authenticationManager)
+↑     ↓
+|  authenticationManager defined in class path resource [com/springbootproject/springbootproject/Jwt/SpringSecurityConfig.class]
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2024-09-13 23:19:23 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter': Unsatisfied dependency expressed through field 'userDetailsService': Error creating bean with name 'jwtService': Unsatisfied dependency expressed through field 'authenticationManager': Error creating bean with name 'authenticationManager' defined in class path resource [com/springbootproject/springbootproject/Jwt/SpringSecurityConfig.class]: Failed to instantiate [org.springframework.security.authentication.AuthenticationManager]: Factory method 'authenticationManager' threw exception with message: Error creating bean with name 'jwtService': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2024-09-13 23:19:23 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   jwtAuthenticationFilter (field private com.springbootproject.springbootproject.ServiceImplementation.JwtService com.springbootproject.springbootproject.Jwt.JwtAuthenticationFilter.userDetailsService)
+┌─────┐
+|  jwtService (field private org.springframework.security.authentication.AuthenticationManager com.springbootproject.springbootproject.ServiceImplementation.JwtService.authenticationManager)
+↑     ↓
+|  authenticationManager defined in class path resource [com/springbootproject/springbootproject/Jwt/SpringSecurityConfig.class]
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2024-09-13 23:20:04 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter': Unsatisfied dependency expressed through field 'userDetailsService': Error creating bean with name 'jwtService': Unsatisfied dependency expressed through field 'authenticationManager': No qualifying bean of type 'org.springframework.security.authentication.AuthenticationManager' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2024-09-13 23:20:04 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field authenticationManager in com.springbootproject.springbootproject.ServiceImplementation.JwtService required a bean of type 'org.springframework.security.authentication.AuthenticationManager' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.authentication.AuthenticationManager' in your configuration.
+
+2024-09-13 23:20:06 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter': Unsatisfied dependency expressed through field 'userDetailsService': Error creating bean with name 'jwtService': Unsatisfied dependency expressed through field 'authenticationManager': No qualifying bean of type 'org.springframework.security.authentication.AuthenticationManager' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2024-09-13 23:20:06 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field authenticationManager in com.springbootproject.springbootproject.ServiceImplementation.JwtService required a bean of type 'org.springframework.security.authentication.AuthenticationManager' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.authentication.AuthenticationManager' in your configuration.
+
+2024-09-13 23:20:43 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:183)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:144)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:429)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:789)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:607)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.springbootproject.springbootproject.SpringbootprojectApplication.main(SpringbootprojectApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.springbootproject.springbootproject.ServiceImplementation.JwtService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@5d307ac1]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$1(AbstractAutowireCapableBeanFactory.java:750)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(Unknown Source)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:749)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:682)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:653)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:534)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:247)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:240)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:230)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:183)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:158)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 22 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: AuthenticationConfiguration
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Unknown Source)
+	at java.base/java.lang.Class.getDeclaredMethods(Unknown Source)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 38 common frames omitted
+Caused by: java.lang.ClassNotFoundException: AuthenticationConfiguration
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Unknown Source)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 42 common frames omitted
+2024-09-13 23:20:58 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter': Unsatisfied dependency expressed through field 'userDetailsService': Error creating bean with name 'jwtService': Unsatisfied dependency expressed through field 'authenticationManager': Error creating bean with name 'jwtService': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2024-09-13 23:20:58 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   jwtAuthenticationFilter (field private com.springbootproject.springbootproject.ServiceImplementation.JwtService com.springbootproject.springbootproject.Jwt.JwtAuthenticationFilter.userDetailsService)
+┌─────┐
+|  jwtService (field private org.springframework.security.authentication.AuthenticationManager com.springbootproject.springbootproject.ServiceImplementation.JwtService.authenticationManager)
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2024-09-13 23:21:00 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter': Unsatisfied dependency expressed through field 'userDetailsService': Error creating bean with name 'jwtService': Unsatisfied dependency expressed through field 'authenticationManager': Error creating bean with name 'jwtService': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2024-09-13 23:21:00 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   jwtAuthenticationFilter (field private com.springbootproject.springbootproject.ServiceImplementation.JwtService com.springbootproject.springbootproject.Jwt.JwtAuthenticationFilter.userDetailsService)
+┌─────┐
+|  jwtService (field private org.springframework.security.authentication.AuthenticationManager com.springbootproject.springbootproject.ServiceImplementation.JwtService.authenticationManager)
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2024-09-13 23:23:13 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter': Unsatisfied dependency expressed through field 'userDetailsService': Error creating bean with name 'jwtService': Unsatisfied dependency expressed through field 'authenticationManager': Error creating bean with name 'authenticationManager' defined in class path resource [com/springbootproject/springbootproject/Jwt/SpringSecurityConfig.class]: Failed to instantiate [org.springframework.security.authentication.AuthenticationManager]: Factory method 'authenticationManager' threw exception with message: Error creating bean with name 'jwtService': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2024-09-13 23:23:13 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   jwtAuthenticationFilter (field private com.springbootproject.springbootproject.ServiceImplementation.JwtService com.springbootproject.springbootproject.Jwt.JwtAuthenticationFilter.userDetailsService)
+┌─────┐
+|  jwtService (field private org.springframework.security.authentication.AuthenticationManager com.springbootproject.springbootproject.ServiceImplementation.JwtService.authenticationManager)
+↑     ↓
+|  authenticationManager defined in class path resource [com/springbootproject/springbootproject/Jwt/SpringSecurityConfig.class]
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2024-09-13 23:23:14 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter': Unsatisfied dependency expressed through field 'userDetailsService': Error creating bean with name 'jwtService': Unsatisfied dependency expressed through field 'authenticationManager': Error creating bean with name 'authenticationManager' defined in class path resource [com/springbootproject/springbootproject/Jwt/SpringSecurityConfig.class]: Failed to instantiate [org.springframework.security.authentication.AuthenticationManager]: Factory method 'authenticationManager' threw exception with message: Error creating bean with name 'jwtService': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2024-09-13 23:23:14 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   jwtAuthenticationFilter (field private com.springbootproject.springbootproject.ServiceImplementation.JwtService com.springbootproject.springbootproject.Jwt.JwtAuthenticationFilter.userDetailsService)
+┌─────┐
+|  jwtService (field private org.springframework.security.authentication.AuthenticationManager com.springbootproject.springbootproject.ServiceImplementation.JwtService.authenticationManager)
+↑     ↓
+|  authenticationManager defined in class path resource [com/springbootproject/springbootproject/Jwt/SpringSecurityConfig.class]
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2024-09-13 23:23:37 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter': Unsatisfied dependency expressed through field 'userDetailsService': Error creating bean with name 'jwtService': Unsatisfied dependency expressed through field 'authenticationManager': Error creating bean with name 'authenticationManager' defined in class path resource [com/springbootproject/springbootproject/Jwt/SpringSecurityConfig.class]: Failed to instantiate [org.springframework.security.authentication.AuthenticationManager]: Factory method 'authenticationManager' threw exception with message: Error creating bean with name 'jwtService': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2024-09-13 23:23:37 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   jwtAuthenticationFilter (field private com.springbootproject.springbootproject.ServiceImplementation.JwtService com.springbootproject.springbootproject.Jwt.JwtAuthenticationFilter.userDetailsService)
+┌─────┐
+|  jwtService (field private org.springframework.security.authentication.AuthenticationManager com.springbootproject.springbootproject.ServiceImplementation.JwtService.authenticationManager)
+↑     ↓
+|  authenticationManager defined in class path resource [com/springbootproject/springbootproject/Jwt/SpringSecurityConfig.class]
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2024-09-13 23:23:39 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter': Unsatisfied dependency expressed through field 'userDetailsService': Error creating bean with name 'jwtService': Unsatisfied dependency expressed through field 'authenticationManager': Error creating bean with name 'authenticationManager' defined in class path resource [com/springbootproject/springbootproject/Jwt/SpringSecurityConfig.class]: Failed to instantiate [org.springframework.security.authentication.AuthenticationManager]: Factory method 'authenticationManager' threw exception with message: Error creating bean with name 'jwtService': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2024-09-13 23:23:39 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   jwtAuthenticationFilter (field private com.springbootproject.springbootproject.ServiceImplementation.JwtService com.springbootproject.springbootproject.Jwt.JwtAuthenticationFilter.userDetailsService)
+┌─────┐
+|  jwtService (field private org.springframework.security.authentication.AuthenticationManager com.springbootproject.springbootproject.ServiceImplementation.JwtService.authenticationManager)
+↑     ↓
+|  authenticationManager defined in class path resource [com/springbootproject/springbootproject/Jwt/SpringSecurityConfig.class]
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2024-09-13 23:27:52 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter' defined in file [/home/ifrahj/NotOkay/springbootproject/target/classes/com/springbootproject/springbootproject/Jwt/JwtAuthenticationFilter.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'jwtService': Unsatisfied dependency expressed through field 'authenticationManager': Error creating bean with name 'authenticationManager' defined in class path resource [com/springbootproject/springbootproject/Jwt/SpringSecurityConfig.class]: Failed to instantiate [org.springframework.security.authentication.AuthenticationManager]: Factory method 'authenticationManager' threw exception with message: Error creating bean with name 'jwtService': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2024-09-13 23:27:52 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   jwtAuthenticationFilter defined in file [/home/ifrahj/NotOkay/springbootproject/target/classes/com/springbootproject/springbootproject/Jwt/JwtAuthenticationFilter.class]
+┌─────┐
+|  jwtService (field private org.springframework.security.authentication.AuthenticationManager com.springbootproject.springbootproject.ServiceImplementation.JwtService.authenticationManager)
+↑     ↓
+|  authenticationManager defined in class path resource [com/springbootproject/springbootproject/Jwt/SpringSecurityConfig.class]
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2024-09-13 23:27:54 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter' defined in file [/home/ifrahj/NotOkay/springbootproject/target/classes/com/springbootproject/springbootproject/Jwt/JwtAuthenticationFilter.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'jwtService': Unsatisfied dependency expressed through field 'authenticationManager': Error creating bean with name 'authenticationManager' defined in class path resource [com/springbootproject/springbootproject/Jwt/SpringSecurityConfig.class]: Failed to instantiate [org.springframework.security.authentication.AuthenticationManager]: Factory method 'authenticationManager' threw exception with message: Error creating bean with name 'jwtService': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2024-09-13 23:27:54 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   jwtAuthenticationFilter defined in file [/home/ifrahj/NotOkay/springbootproject/target/classes/com/springbootproject/springbootproject/Jwt/JwtAuthenticationFilter.class]
+┌─────┐
+|  jwtService (field private org.springframework.security.authentication.AuthenticationManager com.springbootproject.springbootproject.ServiceImplementation.JwtService.authenticationManager)
+↑     ↓
+|  authenticationManager defined in class path resource [com/springbootproject/springbootproject/Jwt/SpringSecurityConfig.class]
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2024-09-13 23:30:47 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9091 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9091 or configure this application to listen on another port.
+
+2024-09-13 23:31:04 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9091 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9091 or configure this application to listen on another port.
+
+2024-09-13 23:31:18 [http-nio-9091-exec-2] ERROR c.s.s.Jwt.JwtAuthenticationFilter - Invalid Header Value !! 
+2024-09-13 23:31:18 [http-nio-9091-exec-2] ERROR c.s.s.utility.LoggingErrorUtility - Unexpected error occurred
+2024-09-13 23:33:21 [http-nio-9091-exec-4] ERROR c.s.s.Jwt.JwtAuthenticationFilter - Invalid Header Value !! 
+2024-09-13 23:33:21 [http-nio-9091-exec-4] ERROR c.s.s.utility.LoggingErrorUtility - Unexpected error occurred
+2024-09-13 23:34:29 [http-nio-9091-exec-2] ERROR c.s.s.Jwt.JwtAuthenticationFilter - Invalid Header Value !! 
+2024-09-13 23:34:29 [http-nio-9091-exec-2] ERROR c.s.s.utility.LoggingErrorUtility - Unexpected error occurred
+2024-09-13 23:34:51 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9091 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9091 or configure this application to listen on another port.
+
+2024-09-13 23:35:01 [http-nio-9091-exec-3] ERROR c.s.s.Jwt.JwtAuthenticationFilter - Invalid Header Value !! 
+2024-09-13 23:35:01 [http-nio-9091-exec-3] ERROR c.s.s.utility.LoggingErrorUtility - Unexpected error occurred
+2024-09-13 23:36:49 [http-nio-9091-exec-2] ERROR c.s.s.Jwt.JwtAuthenticationFilter - Invalid Header Value !! 
+2024-09-13 23:36:49 [http-nio-9091-exec-2] ERROR c.s.s.utility.LoggingErrorUtility - Unexpected error occurred
+2024-09-13 23:37:19 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter': Unsatisfied dependency expressed through field 'userDetailsService': Error creating bean with name 'userDetailsService': Unsatisfied dependency expressed through field 'authenticationManager': Error creating bean with name 'authenticationManager' defined in class path resource [com/springbootproject/springbootproject/Jwt/SpringSecurityConfig.class]: Failed to instantiate [org.springframework.security.authentication.AuthenticationManager]: Factory method 'authenticationManager' threw exception with message: Error creating bean with name 'jwtService': Unsatisfied dependency expressed through field 'authenticationManager': Error creating bean with name 'authenticationManager': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2024-09-13 23:37:19 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   jwtAuthenticationFilter (field private org.springframework.security.core.userdetails.UserDetailsService com.springbootproject.springbootproject.Jwt.JwtAuthenticationFilter.userDetailsService)
+      ↓
+   userDetailsService (field private org.springframework.security.authentication.AuthenticationManager com.springbootproject.springbootproject.ServiceImplementation.JwtService.authenticationManager)
+┌─────┐
+|  authenticationManager defined in class path resource [com/springbootproject/springbootproject/Jwt/SpringSecurityConfig.class]
+↑     ↓
+|  jwtService (field private org.springframework.security.authentication.AuthenticationManager com.springbootproject.springbootproject.ServiceImplementation.JwtService.authenticationManager)
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2024-09-13 23:40:31 [http-nio-9091-exec-1] ERROR c.s.s.Jwt.JwtAuthenticationFilter - Invalid Header Value !! 
+2024-09-13 23:40:31 [http-nio-9091-exec-1] ERROR c.s.s.utility.LoggingErrorUtility - Unexpected error occurred
+2024-09-13 23:42:12 [http-nio-9091-exec-2] ERROR c.s.s.Jwt.JwtAuthenticationFilter - Invalid Header Value !! 
+2024-09-13 23:42:12 [http-nio-9091-exec-2] ERROR c.s.s.utility.LoggingErrorUtility - Unexpected error occurred
+2024-09-13 23:42:22 [http-nio-9091-exec-4] ERROR c.s.s.Jwt.JwtAuthenticationFilter - Invalid Header Value !! 
+2024-09-13 23:42:22 [http-nio-9091-exec-4] ERROR c.s.s.utility.LoggingErrorUtility - Unexpected error occurred
+2024-09-13 23:43:19 [http-nio-9091-exec-6] ERROR c.s.s.Jwt.JwtAuthenticationFilter - Invalid Header Value !! 
+2024-09-13 23:43:19 [http-nio-9091-exec-6] ERROR c.s.s.utility.LoggingErrorUtility - Unexpected error occurred
+2024-09-13 23:52:13 [http-nio-9091-exec-2] ERROR c.s.s.Jwt.JwtAuthenticationFilter - Invalid Header Value !! 
+2024-09-13 23:52:13 [http-nio-9091-exec-2] ERROR c.s.s.utility.LoggingErrorUtility - Unexpected error occurred

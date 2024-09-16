@@ -1,7 +1,0 @@
-2024-08-14 15:44:21 [http-nio-8080-exec-9] ERROR c.s.s.utility.LoggingErrorUtility - Product not found : Product Not Found with product id: 6
-2024-08-14 15:45:50 [http-nio-8080-exec-7] ERROR c.s.s.utility.LoggingErrorUtility - Product not found : Product Not Found with product id: 5
-2024-08-14 15:45:51 [http-nio-8080-exec-8] ERROR c.s.s.utility.LoggingErrorUtility - Product not found : Product Not Found with product id: 5
-2024-08-14 15:45:51 [http-nio-8080-exec-9] ERROR c.s.s.utility.LoggingErrorUtility - Product not found : Product Not Found with product id: 5
-2024-08-14 15:45:51 [http-nio-8080-exec-10] ERROR c.s.s.utility.LoggingErrorUtility - Product not found : Product Not Found with product id: 5
-2024-08-14 15:45:51 [http-nio-8080-exec-1] ERROR c.s.s.utility.LoggingErrorUtility - Product not found : Product Not Found with product id: 5
-2024-08-14 15:45:55 [http-nio-8080-exec-6] ERROR c.s.s.utility.LoggingErrorUtility - Product not found : Product Not Found with product id: 3

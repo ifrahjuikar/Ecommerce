@@ -1,3 +1,28 @@
-2024-09-12 21:45:55 [http-nio-9090-exec-5] ERROR c.s.s.utility.LoggingErrorUtility - Unexpected error occurred
-2024-09-12 21:52:49 [http-nio-9090-exec-1] ERROR c.s.s.utility.LoggingErrorUtility - Unexpected error occurred
-2024-09-12 21:56:00 [http-nio-9090-exec-2] ERROR c.s.s.utility.LoggingErrorUtility - Unexpected error occurred
+2024-09-16 10:42:15 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9091 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9091 or configure this application to listen on another port.
+
+2024-09-16 10:42:47 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9091 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9091 or configure this application to listen on another port.
+

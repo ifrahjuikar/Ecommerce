@@ -1,11 +1,11 @@
 package com.springbootproject.springbootproject.Entitities;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.OneToOne;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.OneToOne;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -29,8 +29,11 @@ public class OrderDetail {
     @OneToOne
     private Product product;
 
+    @OneToOne
+    private User user;
+
     public OrderDetail(String orderFullName, String orderFullOrder, String orderContactNumber,
-            String orderAlternateContactNumber, String orderStatus, Double orderAmount, Product product) {
+            String orderAlternateContactNumber, String orderStatus, Double orderAmount, Product product, User user) {
         this.orderFullName = orderFullName;
         this.orderFullOrder = orderFullOrder;
         this.orderContactNumber = orderContactNumber;
@@ -38,6 +41,7 @@ public class OrderDetail {
         this.orderStatus = orderStatus;
         this.orderAmount = orderAmount;
         this.product = product;
+        this.user=user;
     }
     
     

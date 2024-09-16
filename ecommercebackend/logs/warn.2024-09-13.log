@@ -1,0 +1,713 @@
+2024-09-13 21:51:42 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 21:51:43 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 21:51:43 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.LinkedBlockingQueue.poll(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 21:51:43 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2024-09-13 21:54:58 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 21:54:59 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 21:54:59 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.LinkedBlockingQueue.poll(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 21:54:59 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2024-09-13 21:55:53 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 21:55:54 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 21:55:54 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.LinkedBlockingQueue.poll(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 21:55:54 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2024-09-13 21:57:46 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 21:57:47 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 21:57:47 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.LinkedBlockingQueue.poll(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 21:57:47 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2024-09-13 22:04:30 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2024-09-13 22:20:42 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2024-09-13 22:24:46 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 22:24:48 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jwtController': Unsatisfied dependency expressed through field 'jwtService': Error creating bean with name 'jwtService' defined in file [/home/ifrahj/okay/springbootproject/target/classes/com/springbootproject/springbootproject/ServiceImplementation/JwtService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'webSecurityConfiguration': Unsatisfied dependency expressed through field 'jwtRequestFilter': No qualifying bean of type 'com.springbootproject.springbootproject.configuration.JwtRequestFilter' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2024-09-13 22:26:53 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2024-09-13 22:30:52 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 22:30:53 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 22:30:53 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.LinkedBlockingQueue.poll(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 22:30:53 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2024-09-13 22:33:14 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'authenticationManager' defined in class path resource [com/springbootproject/springbootproject/configuration/WebSecurityConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=webSecurityConfiguration; factoryMethodName=authenticationManager; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/springbootproject/springbootproject/configuration/WebSecurityConfiguration.class]] for bean 'authenticationManager' since there is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=customUserDetailsService; factoryMethodName=authenticationManager; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/springbootproject/springbootproject/ServiceImplementation/CustomUserDetailsService.class]] bound.
+2024-09-13 22:33:24 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'authenticationManager' defined in class path resource [com/springbootproject/springbootproject/configuration/WebSecurityConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=webSecurityConfiguration; factoryMethodName=authenticationManager; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/springbootproject/springbootproject/configuration/WebSecurityConfiguration.class]] for bean 'authenticationManager' since there is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=customUserDetailsService; factoryMethodName=authenticationManager; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/springbootproject/springbootproject/ServiceImplementation/CustomUserDetailsService.class]] bound.
+2024-09-13 22:34:44 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 22:34:45 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 22:34:45 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.LinkedBlockingQueue.poll(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 22:34:45 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2024-09-13 22:36:07 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2024-09-13 22:42:19 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2024-09-13 22:47:01 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2024-09-13 22:48:33 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2024-09-13 22:48:34 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2024-09-13 23:03:59 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2024-09-13 23:04:24 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 23:04:25 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jwtController' defined in file [/home/ifrahj/NotOkay/springbootproject/target/classes/com/springbootproject/springbootproject/Controller/JwtController.class]: Failed to instantiate [com.springbootproject.springbootproject.Controller.JwtController]: Constructor threw exception
+2024-09-13 23:04:36 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 23:04:38 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-13 23:04:38 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-09-13 23:05:06 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 23:05:07 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-13 23:09:47 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'securityFilterChain' defined in class path resource [com/springbootproject/springbootproject/Jwt/SpringSecurityConfig.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=springSecurityConfig; factoryMethodName=securityFilterChain; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/springbootproject/springbootproject/Jwt/SpringSecurityConfig.class]] for bean 'securityFilterChain' since there is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=securityConfig; factoryMethodName=securityFilterChain; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/springbootproject/springbootproject/Jwt/SecurityConfig.class]] bound.
+2024-09-13 23:09:47 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'securityFilterChain' defined in class path resource [com/springbootproject/springbootproject/Jwt/SpringSecurityConfig.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=springSecurityConfig; factoryMethodName=securityFilterChain; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/springbootproject/springbootproject/Jwt/SpringSecurityConfig.class]] for bean 'securityFilterChain' since there is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=securityConfig; factoryMethodName=securityFilterChain; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/springbootproject/springbootproject/Jwt/SecurityConfig.class]] bound.
+2024-09-13 23:10:29 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 23:10:30 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-13 23:10:30 [restartedMain] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [jwtService, userDetailsService]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2024-09-13 23:10:32 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 23:10:33 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-13 23:10:33 [restartedMain] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [jwtService, userDetailsService]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2024-09-13 23:10:34 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2024-09-13 23:10:34 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-09-13 23:10:42 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 23:10:43 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-13 23:10:43 [restartedMain] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [jwtService, userDetailsService]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2024-09-13 23:13:13 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 23:13:13 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-13 23:13:13 [restartedMain] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [jwtService, userDetailsService]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2024-09-13 23:13:18 [http-nio-9091-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.NullPointerException: Cannot invoke "org.springframework.security.authentication.AuthenticationManager.authenticate(org.springframework.security.core.Authentication)" because "this.authenticationManager" is null]
+2024-09-13 23:13:57 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 23:13:57 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-3 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 23:13:57 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-3 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/java.lang.Thread.sleep(Native Method)
+ app//com.zaxxer.hikari.util.UtilityElf.quietlySleep(UtilityElf.java:53)
+ app//com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:729)
+ app//com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703)
+ java.base@17.0.12/java.util.concurrent.FutureTask.run(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 23:13:57 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2024-09-13 23:14:38 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 23:14:38 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-13 23:14:38 [restartedMain] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [jwtService, userDetailsService]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2024-09-13 23:14:47 [http-nio-9091-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.NullPointerException: Cannot invoke "org.springframework.security.authentication.AuthenticationManager.authenticate(org.springframework.security.core.Authentication)" because "this.authenticationManager" is null]
+2024-09-13 23:17:34 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 23:17:34 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-13 23:17:34 [restartedMain] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [jwtService, userDetailsService]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2024-09-13 23:18:00 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 23:18:00 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-6 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 23:18:00 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-6 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/java.lang.invoke.Invokers$Holder.linkToTargetMethod(Invokers$Holder)
+ platform/jdk.crypto.ec@17.0.12/sun.security.ec.XDHKeyPairGenerator.initialize(Unknown Source)
+ platform/jdk.crypto.ec@17.0.12/sun.security.ec.XDHKeyPairGenerator.tryInitialize(Unknown Source)
+ platform/jdk.crypto.ec@17.0.12/sun.security.ec.XDHKeyPairGenerator.<init>(Unknown Source)
+ platform/jdk.crypto.ec@17.0.12/sun.security.ec.SunEC$ProviderService.newInstance(Unknown Source)
+ java.base@17.0.12/sun.security.jca.GetInstance.getInstance(Unknown Source)
+ java.base@17.0.12/java.security.KeyPairGenerator.getInstance(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.XDHKeyExchange$XDHEPossession.<init>(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.NamedGroup$XDHScheme.createPossession(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.NamedGroup$NamedGroupSpec.createPossession(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.NamedGroup.createPossession(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.SSLKeyExchange$T13KeyAgreement.createPossession(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.SSLKeyExchange.createPossessions(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.KeyShareExtension$CHKeyShareProducer.getShare(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.KeyShareExtension$CHKeyShareProducer.produce(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.SSLExtension.produce(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.SSLExtensions.produce(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.ClientHello$ClientHelloKickstartProducer.produce(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.SSLHandshake.kickstart(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.ClientHandshakeContext.kickstart(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.TransportContext.kickstart(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+ app//org.postgresql.ssl.MakeSSL.convert(MakeSSL.java:43)
+ app//org.postgresql.core.v3.ConnectionFactoryImpl.enableSSL(ConnectionFactoryImpl.java:625)
+ app//org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:195)
+ app//org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:262)
+ app//org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+ app//org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273)
+ app//org.postgresql.Driver.makeConnection(Driver.java:446)
+ app//org.postgresql.Driver.connect(Driver.java:298)
+ app//com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+ app//com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+ app//com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+ app//com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+ app//com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:724)
+ app//com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703)
+ java.base@17.0.12/java.util.concurrent.FutureTask.run(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 23:18:00 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2024-09-13 23:18:01 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 23:18:02 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 23:18:02 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.LinkedBlockingQueue.poll(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 23:18:02 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2024-09-13 23:19:18 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 23:19:18 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-7 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 23:19:18 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-7 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/java.util.Properties.getProperty(Unknown Source)
+ app//org.postgresql.PGProperty.getOrDefault(PGProperty.java:869)
+ app//org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:144)
+ app//org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:262)
+ app//org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+ app//org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273)
+ app//org.postgresql.Driver.makeConnection(Driver.java:446)
+ app//org.postgresql.Driver.connect(Driver.java:298)
+ app//com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+ app//com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+ app//com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+ app//com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+ app//com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:724)
+ app//com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703)
+ java.base@17.0.12/java.util.concurrent.FutureTask.run(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 23:19:18 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2024-09-13 23:19:22 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 23:19:23 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 23:19:23 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.LinkedBlockingQueue.poll(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 23:19:23 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2024-09-13 23:20:04 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 23:20:04 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-8 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 23:20:04 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-8 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/java.lang.Thread.sleep(Native Method)
+ app//com.zaxxer.hikari.util.UtilityElf.quietlySleep(UtilityElf.java:53)
+ app//com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:729)
+ app//com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703)
+ java.base@17.0.12/java.util.concurrent.FutureTask.run(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 23:20:04 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2024-09-13 23:20:05 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 23:20:06 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 23:20:06 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.LinkedBlockingQueue.poll(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 23:20:06 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2024-09-13 23:20:43 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+2024-09-13 23:20:58 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 23:20:58 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-9 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 23:20:58 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-9 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/sun.security.util.math.intpoly.IntegerPolynomialP256.carryReduce(Unknown Source)
+ java.base@17.0.12/sun.security.util.math.intpoly.IntegerPolynomialP256.mult(Unknown Source)
+ java.base@17.0.12/sun.security.util.math.intpoly.IntegerPolynomial$MutableElement.setProduct(Unknown Source)
+ java.base@17.0.12/sun.security.util.math.intpoly.IntegerPolynomial$MutableElement.setProduct(Unknown Source)
+ platform/jdk.crypto.ec@17.0.12/sun.security.ec.ECOperations.setDouble(Unknown Source)
+ platform/jdk.crypto.ec@17.0.12/sun.security.ec.ECOperations.double4(Unknown Source)
+ platform/jdk.crypto.ec@17.0.12/sun.security.ec.ECOperations.multiply(Unknown Source)
+ platform/jdk.crypto.ec@17.0.12/sun.security.ec.ECKeyPairGenerator.generateKeyPairImpl(Unknown Source)
+ platform/jdk.crypto.ec@17.0.12/sun.security.ec.ECKeyPairGenerator.generateKeyPair(Unknown Source)
+ java.base@17.0.12/java.security.KeyPairGenerator$Delegate.generateKeyPair(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.ECDHKeyExchange$ECDHEPossession.<init>(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.NamedGroup$ECDHEScheme.createPossession(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.NamedGroup$NamedGroupSpec.createPossession(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.NamedGroup.createPossession(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.SSLKeyExchange$T13KeyAgreement.createPossession(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.SSLKeyExchange.createPossessions(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.KeyShareExtension$CHKeyShareProducer.getShare(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.KeyShareExtension$CHKeyShareProducer.produce(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.SSLExtension.produce(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.SSLExtensions.produce(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.ClientHello$ClientHelloKickstartProducer.produce(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.SSLHandshake.kickstart(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.ClientHandshakeContext.kickstart(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.TransportContext.kickstart(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+ app//org.postgresql.ssl.MakeSSL.convert(MakeSSL.java:43)
+ app//org.postgresql.core.v3.ConnectionFactoryImpl.enableSSL(ConnectionFactoryImpl.java:625)
+ app//org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:195)
+ app//org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:262)
+ app//org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+ app//org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273)
+ app//org.postgresql.Driver.makeConnection(Driver.java:446)
+ app//org.postgresql.Driver.connect(Driver.java:298)
+ app//com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+ app//com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+ app//com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+ app//com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+ app//com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:724)
+ app//com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703)
+ java.base@17.0.12/java.util.concurrent.FutureTask.run(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 23:20:58 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2024-09-13 23:20:59 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 23:21:00 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 23:21:00 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.LinkedBlockingQueue.poll(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 23:21:00 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2024-09-13 23:23:13 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 23:23:13 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-10 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 23:23:13 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-10 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/java.lang.Thread.sleep(Native Method)
+ app//com.zaxxer.hikari.util.UtilityElf.quietlySleep(UtilityElf.java:53)
+ app//com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:729)
+ app//com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703)
+ java.base@17.0.12/java.util.concurrent.FutureTask.run(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 23:23:13 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2024-09-13 23:23:14 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 23:23:14 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 23:23:14 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.LinkedBlockingQueue.poll(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 23:23:14 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2024-09-13 23:23:37 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 23:23:37 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-11 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 23:23:37 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-11 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/java.lang.Thread.sleep(Native Method)
+ app//com.zaxxer.hikari.util.UtilityElf.quietlySleep(UtilityElf.java:53)
+ app//com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:729)
+ app//com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703)
+ java.base@17.0.12/java.util.concurrent.FutureTask.run(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 23:23:37 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2024-09-13 23:23:38 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 23:23:39 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 23:23:39 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.LinkedBlockingQueue.poll(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 23:23:39 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2024-09-13 23:27:52 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 23:27:52 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-12 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 23:27:52 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-12 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/sun.security.util.BitArray.<init>(Unknown Source)
+ java.base@17.0.12/sun.security.util.BitArray.<init>(Unknown Source)
+ platform/jdk.crypto.ec@17.0.12/sun.security.ec.XDHPublicKeyImpl.<init>(Unknown Source)
+ platform/jdk.crypto.ec@17.0.12/sun.security.ec.XDHKeyPairGenerator.generateKeyPair(Unknown Source)
+ java.base@17.0.12/java.security.KeyPairGenerator$Delegate.generateKeyPair(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.XDHKeyExchange$XDHEPossession.<init>(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.NamedGroup$XDHScheme.createPossession(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.NamedGroup$NamedGroupSpec.createPossession(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.NamedGroup.createPossession(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.SSLKeyExchange$T13KeyAgreement.createPossession(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.SSLKeyExchange.createPossessions(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.KeyShareExtension$CHKeyShareProducer.getShare(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.KeyShareExtension$CHKeyShareProducer.produce(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.SSLExtension.produce(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.SSLExtensions.produce(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.ClientHello$ClientHelloKickstartProducer.produce(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.SSLHandshake.kickstart(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.ClientHandshakeContext.kickstart(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.TransportContext.kickstart(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+ app//org.postgresql.ssl.MakeSSL.convert(MakeSSL.java:43)
+ app//org.postgresql.core.v3.ConnectionFactoryImpl.enableSSL(ConnectionFactoryImpl.java:625)
+ app//org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:195)
+ app//org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:262)
+ app//org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+ app//org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273)
+ app//org.postgresql.Driver.makeConnection(Driver.java:446)
+ app//org.postgresql.Driver.connect(Driver.java:298)
+ app//com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+ app//com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+ app//com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+ app//com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+ app//com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:724)
+ app//com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703)
+ java.base@17.0.12/java.util.concurrent.FutureTask.run(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 23:27:52 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2024-09-13 23:27:53 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 23:27:54 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 23:27:54 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.LinkedBlockingQueue.poll(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 23:27:54 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2024-09-13 23:30:41 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 23:30:42 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-13 23:30:42 [restartedMain] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [jwtService, userDetailsService]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2024-09-13 23:30:44 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 23:30:44 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-13 23:30:44 [restartedMain] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [jwtService, userDetailsService]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2024-09-13 23:30:45 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 23:30:46 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-13 23:30:46 [restartedMain] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [jwtService, userDetailsService]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2024-09-13 23:30:47 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2024-09-13 23:30:47 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-09-13 23:31:01 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 23:31:01 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-13 23:31:01 [restartedMain] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [jwtService, userDetailsService]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2024-09-13 23:31:02 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 23:31:03 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-13 23:31:03 [restartedMain] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [jwtService, userDetailsService]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2024-09-13 23:31:04 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2024-09-13 23:31:04 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-09-13 23:31:10 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 23:31:11 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-13 23:31:11 [restartedMain] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [jwtService, userDetailsService]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2024-09-13 23:31:18 [http-nio-9091-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [jakarta.servlet.ServletException: Handler dispatch failed: java.lang.StackOverflowError]
+2024-09-13 23:33:21 [http-nio-9091-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [jakarta.servlet.ServletException: Handler dispatch failed: java.lang.StackOverflowError]
+2024-09-13 23:34:24 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 23:34:25 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-13 23:34:25 [restartedMain] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [jwtService, userDetailsService]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2024-09-13 23:34:29 [http-nio-9091-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [jakarta.servlet.ServletException: Handler dispatch failed: java.lang.StackOverflowError]
+2024-09-13 23:34:48 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 23:34:49 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-13 23:34:49 [restartedMain] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [jwtService, userDetailsService]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2024-09-13 23:34:49 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 23:34:51 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-13 23:34:51 [restartedMain] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [jwtService, userDetailsService]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2024-09-13 23:34:51 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2024-09-13 23:34:51 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-09-13 23:34:57 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 23:34:58 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-13 23:34:58 [restartedMain] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [jwtService, userDetailsService]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2024-09-13 23:35:01 [http-nio-9091-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [jakarta.servlet.ServletException: Handler dispatch failed: java.lang.StackOverflowError]
+2024-09-13 23:36:45 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 23:36:45 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-13 23:36:45 [restartedMain] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [jwtService, userDetailsService]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2024-09-13 23:36:49 [http-nio-9091-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [jakarta.servlet.ServletException: Handler dispatch failed: java.lang.StackOverflowError]
+2024-09-13 23:37:19 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 23:37:19 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-3 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 23:37:19 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-3 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/java.math.MutableBigInteger.toIntArray(Unknown Source)
+ java.base@17.0.12/java.math.BigInteger.oddModPow(Unknown Source)
+ java.base@17.0.12/java.math.BigInteger.modPow(Unknown Source)
+ java.base@17.0.12/sun.security.rsa.RSACore.crypt(Unknown Source)
+ java.base@17.0.12/sun.security.rsa.RSACore.rsa(Unknown Source)
+ java.base@17.0.12/sun.security.rsa.RSAPSSSignature.engineVerify(Unknown Source)
+ java.base@17.0.12/java.security.Signature$Delegate.engineVerify(Unknown Source)
+ java.base@17.0.12/java.security.Signature.verify(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.CertificateVerify$T13CertificateVerifyMessage.<init>(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.CertificateVerify$T13CertificateVerifyConsumer.consume(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.SSLHandshake.consume(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.HandshakeContext.dispatch(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.HandshakeContext.dispatch(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.TransportContext.dispatch(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.SSLTransport.decode(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.SSLSocketImpl.decode(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+ java.base@17.0.12/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+ app//org.postgresql.ssl.MakeSSL.convert(MakeSSL.java:43)
+ app//org.postgresql.core.v3.ConnectionFactoryImpl.enableSSL(ConnectionFactoryImpl.java:625)
+ app//org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:195)
+ app//org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:262)
+ app//org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+ app//org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273)
+ app//org.postgresql.Driver.makeConnection(Driver.java:446)
+ app//org.postgresql.Driver.connect(Driver.java:298)
+ app//com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+ app//com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+ app//com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+ app//com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+ app//com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:724)
+ app//com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703)
+ java.base@17.0.12/java.util.concurrent.FutureTask.run(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@17.0.12/java.lang.Thread.run(Unknown Source)
+2024-09-13 23:37:19 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2024-09-13 23:40:25 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 23:40:26 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-13 23:40:26 [restartedMain] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [jwtService, userDetailsService]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2024-09-13 23:40:31 [http-nio-9091-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.Exception: Invalid credentials]
+2024-09-13 23:41:55 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 23:41:55 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-13 23:41:55 [restartedMain] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [jwtService, userDetailsService]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2024-09-13 23:42:08 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 23:42:08 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-13 23:42:08 [restartedMain] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [jwtService, userDetailsService]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2024-09-13 23:42:12 [http-nio-9091-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.Exception: Invalid credentials]
+2024-09-13 23:42:22 [http-nio-9091-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.Exception: Invalid credentials]
+2024-09-13 23:43:19 [http-nio-9091-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.Exception: Invalid credentials]
+2024-09-13 23:46:28 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 23:46:28 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-13 23:46:28 [restartedMain] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [jwtService, userDetailsService]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2024-09-13 23:46:30 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 23:46:30 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-13 23:46:30 [restartedMain] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [jwtService, userDetailsService]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2024-09-13 23:52:13 [http-nio-9091-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.Exception: Invalid credentials]
+2024-09-13 23:57:30 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13 23:57:30 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-13 23:57:30 [restartedMain] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [jwtService, userDetailsService]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.

@@ -5,9 +5,13 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.*;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
 import com.lowagie.text.Document;
@@ -17,10 +21,15 @@ import com.lowagie.text.Phrase;
 import com.lowagie.text.pdf.PdfPCell;
 import com.lowagie.text.pdf.PdfPTable;
 import com.lowagie.text.pdf.PdfWriter;
+import com.springbootproject.springbootproject.Entitities.Cart;
 import com.springbootproject.springbootproject.Entitities.Product;
 import com.springbootproject.springbootproject.Entitities.ProductShadow;
+import com.springbootproject.springbootproject.Entitities.User;
 import com.springbootproject.springbootproject.Exception.ProductNotFoundException;
+import com.springbootproject.springbootproject.Jwt.JwtAuthenticationFilter;
+import com.springbootproject.springbootproject.Repositories.CartRepository;
 import com.springbootproject.springbootproject.Repositories.ProductRepository;
+import com.springbootproject.springbootproject.Repositories.UserRepository;
 // import com.springbootproject.springbootproject.Repositories.ProductShadowRepository;
 import com.springbootproject.springbootproject.Service.ProductService;
 
@@ -32,6 +41,12 @@ public class ProductServiceImpl implements ProductService {
 
     @Autowired
     private ProductRepository productRepository;
+
+    @Autowired
+    private UserRepository userRepository;
+
+    @Autowired
+    private CartRepository cartRepository;
 
     // @Autowired
     // private ProductShadowRepository productShadowRepository;
@@ -99,18 +114,90 @@ public class ProductServiceImpl implements ProductService {
         return existingProduct;
     }
 
-    /**
-     * Retrieves all products.
-     * 
-     * @return A list of all products.
-     */
-    @Override
-    public List<Product> getAllProducts() {
-        // Retrieving all products
-        List<Product> products = productRepository.findAll();
+    // /**
+    //  * Retrieves all products.
+    //  * 
+    //  * @return A list of all products.
+    //  */
+    // @Override
+    // public List<Product> getAllProducts() {
+    //     Pageable pageable=PageRequest.of(0, 10);
+
+    //     // Retrieving all products
+    //     List<Product> products = productRepository.findAll(pageable);
         
+    //     return products;
+    // }
+
+
+
+
+//second approach
+
+@Override
+public List<Product> getAllProducts(int pageNumber) {
+    Pageable pageable = PageRequest.of(pageNumber, 2);
+
+    // Retrieving all products as a Page
+    Page<Product> productPage = productRepository.findAll(pageable);
+    
+    // Convert Page<Product> to List<Product>
+    List<Product> products = productPage.getContent();
+    
+    return products;
+}
+
+@Override
+public List<Product> getAllProducts() {
+    Pageable pageable = PageRequest.of(0, 1);
+
+    // Retrieving all products as a Page
+    Page<Product> productPage = productRepository.findAll(pageable);
+    
+    // Convert Page<Product> to List<Product>
+    List<Product> products = productPage.getContent();
+    
+    return products;
+}
+
+
+@Override
+public List<Product> getAllProducts(int pageNumber, String searchKey) {
+    Pageable pageable = PageRequest.of(pageNumber, 2);
+
+   
+    // Retrieving all products as a Page
+    Page<Product> productPage = productRepository.findAll(pageable);
+    
+    // Convert Page<Product> to List<Product>
+    List<Product> products = productPage.getContent();
+
+    if(searchKey.equals("")){
         return products;
+    }else{
+        return productRepository.searchProducts(searchKey, pageable);
+        // return productRepository.findByProductNameContainingIgnoreCaseOrProductDescriptionContainingIgnoreCase(searchKey, searchKey,pageable);
     }
+
+    
+}
+
+// @Override
+// public Page<Product> getAllProducts(int pageNumber, String searchKey) {
+//     Pageable pageable = PageRequest.of(pageNumber, 10);
+//     if(searchKey.equals("")){
+//         return productRepository.findAll(pageable);
+//     } else {
+//         return productRepository.findByProductNameContainingIgnoreCaseOrProductDescriptionContainingIgnoreCase(searchKey, searchKey, pageable);
+//     }
+// }
+
+    
+
+//
+
+
+
 
     /**
      * Retrieves a product by ID.
@@ -135,10 +222,12 @@ public class ProductServiceImpl implements ProductService {
             return list;
 
         }else{
-           
+           String username=JwtAuthenticationFilter.CURRENT_USER;
+           User user=userRepository.findById(username).get();
+           List<Cart> carts=cartRepository.findByUser(user);
+           return carts.stream().map(x->x.getProduct()).collect(Collectors.toList());
 
         }
-        return new ArrayList<>();
 
     }
 

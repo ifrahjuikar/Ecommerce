@@ -1,0 +1,2 @@
+2024-09-14 23:37:35 [http-nio-9091-exec-10] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-09-14 23:38:50 [http-nio-9091-exec-3] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products

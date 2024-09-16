@@ -1,4 +1,0 @@
-2024-09-09 14:59:47 [http-nio-9090-exec-1] DEBUG c.s.s.Controller.ProductController - Request to add a product
-2024-09-09 15:01:05 [http-nio-9090-exec-3] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
-2024-09-09 15:01:09 [http-nio-9090-exec-5] DEBUG c.s.s.Controller.ProductController - Received a request to delete a product
-2024-09-09 16:10:07 [http-nio-9090-exec-3] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products

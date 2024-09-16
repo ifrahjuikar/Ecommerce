@@ -4,7 +4,8 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.util.List;
 
-import com.lowagie.text.DocumentException;
+import org.w3c.dom.DOMException;
+
 import com.springbootproject.springbootproject.Entitities.Customer;
 
 // Service interface for managing Customer entities
@@ -26,6 +27,6 @@ public interface CustomerService {
     public Customer getCustomerById(Long custId);
 
     // Method to generate a PDF of customer list
-    public void generateCustomerPdf(List<Customer> customerList, OutputStream outputStream) throws DocumentException, IOException;
+    public void generateCustomerPdf(List<Customer> customerList, OutputStream outputStream) throws DOMException, IOException;
 
 }

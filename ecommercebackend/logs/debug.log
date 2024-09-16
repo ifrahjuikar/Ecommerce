@@ -1,13 +1,42 @@
-2024-09-12 00:44:51 [http-nio-9090-exec-4] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
-2024-09-12 00:44:57 [http-nio-9090-exec-5] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a product with Id 60
-2024-09-12 00:45:04 [http-nio-9090-exec-6] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
-2024-09-12 00:45:06 [http-nio-9090-exec-7] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
-2024-09-12 00:45:08 [http-nio-9090-exec-8] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a product with Id 60
-2024-09-12 00:45:32 [http-nio-9090-exec-9] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
-2024-09-12 00:45:34 [http-nio-9090-exec-10] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a product with Id 60
-2024-09-12 21:45:26 [http-nio-9090-exec-3] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
-2024-09-12 21:45:29 [http-nio-9090-exec-4] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
-2024-09-12 21:57:49 [http-nio-9090-exec-1] DEBUG c.s.s.Controller.ProductController - Request to add a product
-2024-09-12 22:10:10 [http-nio-9090-exec-3] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
-2024-09-12 22:10:17 [http-nio-9090-exec-4] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
-2024-09-12 22:10:55 [http-nio-9090-exec-5] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-09-15 01:23:32 [http-nio-9091-exec-2] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-09-15 01:23:39 [http-nio-9091-exec-3] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-09-15 01:25:10 [http-nio-9091-exec-5] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-09-15 01:25:28 [http-nio-9091-exec-7] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-09-15 01:25:41 [http-nio-9091-exec-8] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-09-15 01:28:22 [http-nio-9091-exec-2] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-09-15 01:29:18 [http-nio-9091-exec-2] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-09-15 01:29:50 [http-nio-9091-exec-2] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-09-15 01:30:29 [http-nio-9091-exec-2] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-09-15 01:30:57 [http-nio-9091-exec-3] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-09-15 01:30:59 [http-nio-9091-exec-4] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-09-15 01:31:09 [http-nio-9091-exec-5] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-09-15 01:31:42 [http-nio-9091-exec-6] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-09-15 01:33:33 [http-nio-9091-exec-9] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-09-15 01:33:45 [http-nio-9091-exec-10] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-09-15 01:33:58 [http-nio-9091-exec-1] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-09-15 01:38:14 [http-nio-9091-exec-1] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-09-15 01:40:47 [http-nio-9091-exec-1] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-09-15 01:40:57 [http-nio-9091-exec-2] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-09-15 01:48:52 [http-nio-9091-exec-2] DEBUG c.s.s.Controller.ProductController - Received a request to retrieve products
+2024-09-15 01:49:21 [http-nio-9091-exec-3] DEBUG c.s.s.Controller.ProductController - Received a request to retrieve products
+2024-09-15 01:50:45 [http-nio-9091-exec-6] DEBUG c.s.s.Controller.ProductController - Received a request to retrieve products
+2024-09-15 01:52:13 [http-nio-9091-exec-1] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-09-15 01:53:14 [http-nio-9091-exec-1] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-09-15 01:53:26 [http-nio-9091-exec-3] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-09-15 01:53:37 [http-nio-9091-exec-4] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-09-15 01:53:43 [http-nio-9091-exec-5] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-09-15 01:53:52 [http-nio-9091-exec-6] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-09-15 01:54:18 [http-nio-9091-exec-1] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-09-15 01:56:04 [http-nio-9091-exec-2] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-09-15 01:57:01 [http-nio-9091-exec-2] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-09-15 02:00:48 [http-nio-9091-exec-1] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-09-15 02:00:52 [http-nio-9091-exec-3] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-09-15 02:00:58 [http-nio-9091-exec-4] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-09-15 02:01:07 [http-nio-9091-exec-5] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-09-15 02:01:53 [http-nio-9091-exec-6] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-09-15 02:05:38 [http-nio-9091-exec-1] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-09-15 02:05:41 [http-nio-9091-exec-3] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-09-15 02:05:50 [http-nio-9091-exec-4] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-09-15 02:06:07 [http-nio-9091-exec-5] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-09-15 02:06:15 [http-nio-9091-exec-6] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products
+2024-09-15 02:06:23 [http-nio-9091-exec-7] DEBUG c.s.s.Controller.ProductController - Received a request to retrive a products

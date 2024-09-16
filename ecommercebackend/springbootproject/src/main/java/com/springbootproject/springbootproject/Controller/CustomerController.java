@@ -8,11 +8,13 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.w3c.dom.DOMException;
 
-import com.lowagie.text.DocumentException;
 import com.springbootproject.springbootproject.Entitities.Customer;
 import com.springbootproject.springbootproject.Exception.ApiResponse;
 import com.springbootproject.springbootproject.Service.CustomerService;
+
+import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -22,7 +24,6 @@ import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
-import javax.servlet.http.HttpServletResponse;
 
 /**
  * Controller class for managing customer-related endpoints.
@@ -174,7 +175,7 @@ public class CustomerController {
          */
         @GetMapping("/customers/pdf")
         public ResponseEntity<byte[]> generateCustomerPdfFile(HttpServletResponse response,
-                        @RequestHeader Map<String, String> headers) throws IOException, DocumentException {
+                        @RequestHeader Map<String, String> headers) throws IOException, DOMException {
                 log.debug("Received a request to generate a PDF for customers");
 
                 // Setting up response type
